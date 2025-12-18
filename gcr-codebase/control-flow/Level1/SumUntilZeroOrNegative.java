@@ -16,7 +16,7 @@ public class SumUntilZeroOrNegative {
             total += n;
         }
  
-        //Display the output
+        //Display the total value unit the input is negative or 0
         System.out.println("The total sum is " + total);
     }
 }
