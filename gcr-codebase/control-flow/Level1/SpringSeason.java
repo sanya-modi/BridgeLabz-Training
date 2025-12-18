@@ -1,14 +1,9 @@
-import java.util.Scanner;
-
 public class SpringSeason{
     public static void main(String[] args){
-    Scanner sc = new Scanner(System.in);
 
-    //Get integer input for day and month
-    System.out.println("Enter the month number : ");
-    int month = sc.nextInt();
-    System.out.println("Enter the day number : ");
-    int day = sc.nextInt();
+    //Get integer command line input
+    int month = Integer.parseInt(args[0]);
+    int day = Integer.parseInt(args[1]);
 
     //Check the day and month, as spring Season is from March 20 to June 20
      if ((month == 3 && day >= 20) ||
