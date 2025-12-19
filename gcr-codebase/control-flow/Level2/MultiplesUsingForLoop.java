@@ -9,15 +9,14 @@ public class MultiplesUsingForLoop {
 
         //Check the number is a positive integer and less than 100
         if (number > 0 && number < 100) {
-            for (int i = 100; i >= 1; i--) {
-                if (i % number == 0) {
-                    System.out.println(i);
-                }
-            }
+        for (int i = 100; i >= 1; i--) {
+        if (i % number == 0) {
+        System.out.println(i);
+        }
+        }
         } 
         else {
-            System.out.println("Invalid input");
-       
- }
+        System.out.println("Invalid input");      
+        }
 }
 }
