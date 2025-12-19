@@ -10,16 +10,15 @@ public class MultiplesUsingWhileLoop {
         //Check the number is a positive integer and less than 100
         if (number > 0 && number < 100) {
         int counter = 100;
-            while(counter > 1) {
-                if (counter % number == 0) {
-                    System.out.println(counter);
-                }
-                counter--;
-            }
+        while(counter > 1) {
+        if (counter % number == 0) {
+        System.out.println(counter);
+        }
+        counter--;
+        }
         } 
         else {
-            System.out.println("Invalid input");
-       
- }
+        System.out.println("Invalid input");
+        }
 }
 }
