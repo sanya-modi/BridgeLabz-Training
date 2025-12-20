@@ -28,5 +28,8 @@ public class SumOfNumbers{
         System.out.println("Sum of n natural numbers using formula : " + sumUsingFormula(n));
         System.out.println("The result from both computations is correct. : " + (sumUsingRecursion(n)==sumUsingFormula(n)));
         }
+        else{
+        System.out.println("Not a natural number");
+        }
     }
 }
