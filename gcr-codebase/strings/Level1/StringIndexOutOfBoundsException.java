@@ -27,7 +27,8 @@ public class StringIndexOutOfBoundsException{
     checkException(text);
     }
     catch(Exception e){ 
-    handleException(text);
+    System.out.println("Exception caught in main");
     }
+    handleException(text);
     }
 }
