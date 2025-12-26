@@ -317,3 +317,49 @@
 *GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
 
 ---
+
+## Day 2 – Extras (Built-In Methods & String Practice)
+
+*(Date: 23-Dec-2025)*
+
+- Practiced built-in Java methods and additional string operations.
+- Worked on date/time operations and recursive algorithms.
+
+```
+    gcr-codebase/
+    └── Extras/
+        ├── Built-In/
+        |   ├── Level-1/
+        |   |   ├── DateFormatting.java
+        |   |   ├── DateComparison.java
+        |   |   ├── DateArithmetic.java
+        |   |   └── TimeZoned.java
+        |   └── Level-2/
+        |       ├── BasicCalculator.java
+        |       ├── TemperatureConverter.java
+        |       ├── MaximumThreeNumbers.java
+        |       ├── PrimeNumberChecker.java
+        |       ├── Palindrome.java
+        |       ├── FibonacciSequence.java
+        |       ├── FactorialRecursion.java
+        |       ├── GCDLCMCalculator.java
+        |       └── NumberGuessingGame.java
+        └── Strings/
+            ├── CompareStrings.java
+            ├── ReverseString.java
+            ├── Palindrome.java
+            ├── Anagrams.java
+            ├── VowelsConsonants.java
+            ├── CaseCharacters.java
+            ├── RemoveDuplicates.java
+            ├── RemoveSpecificCharacter.java
+            ├── LongestWord.java
+            ├── MostFrequentCharacter.java
+            └── SubstringOccurrences.java
+```
+
+- Completed and pushed `extras` to GitHub.
+
+*GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)
+
+---
