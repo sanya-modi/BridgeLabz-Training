@@ -208,3 +208,59 @@
 *GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
 
 ---
+
+## Day 6 – Methods
+
+*(Date: 20-Dec-2025)*
+
+- Learned method creation and usage in Java.
+- Practiced methods with parameters, return types, and method overloading.
+
+```
+    gcr-codebase/
+    └── methods/
+        ├── Level-1/
+        |   ├── PositiveNegativeZero.java
+        |   ├── SpringSeason.java
+        |   ├── SmallLargeNumbers.java
+        |   ├── QuotientAndReminder.java
+        |   ├── SimpleIntrest.java
+        |   ├── SumOfNaturalNumber.java
+        |   ├── MaximumNumberOfHandshakes.java
+        |   ├── ChocolatesDistribution.java
+        |   ├── TriangularPark.java
+        |   ├── TrigonometricFunctions.java
+        |   └── WindChillTemperature.java
+        ├── Level-2/
+        |   ├── PositiveNegativeOddEven.java
+        |   ├── LeapYear.java
+        |   ├── StudentVoteChecker.java
+        |   ├── Factors.java
+        |   ├── SumNaturalNumbers.java
+        |   ├── BMICalculator.java
+        |   ├── YoungestFriends.java
+        |   ├── Quadratic.java
+        |   ├── RandomGeneratives.java
+        |   ├── UnitConvertor.java
+        |   ├── UnitConvertorDistance.java
+        |   └── UnitConvertorWeight.java
+        └── Level-3/
+            ├── NumberChecker.java
+            ├── NumberCheckerPrime.java
+            ├── NumberCheckerPow.java
+            ├── NumberCheckerAbundant.java
+            ├── GradeCalculator.java
+            ├── FactorArray.java
+            ├── MeanHeight.java
+            ├── EmployBonus.java
+            ├── EuclideanDistance.java
+            ├── SlopeAndArea.java
+            ├── OTPGenerator.java
+            └── DisplayCalender.java
+```
+
+- Completed and pushed `methods` to GitHub.
+
+*GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
+
+---
