@@ -1,6 +1,6 @@
-# Week 2 : Object Oriented Programming Concepts
+## Week 2 : Object Oriented Programming Concepts
 
-## Day 1 - class & object
+### Day 1 - class & object
 
 *(Date: 26-Dec-2025)*
 
