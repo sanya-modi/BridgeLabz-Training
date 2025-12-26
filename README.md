@@ -363,3 +363,30 @@
 *GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)
 
 ---
+
+## Day 3 – LeetCode & Scenario-Based Problems
+
+*(Date: 24-Dec-2025)*
+
+- Solved LeetCode array problems and real-world scenario-based challenges.
+- Applied programming concepts to practical use cases.
+
+```
+    leet-code-codebase/
+    └── Arrays/
+        ├── TwoSum.java
+        ├── SpiralMatrix.java
+        └── RemoveElement.java
+
+    scenario-based-codebase/
+    ├── BMICalculator.java
+    └── CoffeeCounterCalculator.java
+```
+
+- Completed and pushed `LeetCode` and `scenario-based` solutions to GitHub.
+
+*GitHub Repository:* 
+- LeetCode: [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase)
+- Scenario-Based: [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+
+---
