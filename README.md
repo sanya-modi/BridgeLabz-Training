@@ -60,3 +60,47 @@
 *GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequisite)
 
 ---
+
+## Day 3 – Industrial Standards & Programming Elements
+
+*(Date: 17-Dec-2025)*
+
+- Learned industrial coding standards and best practices.
+- Practiced programming elements with various problem-solving exercises.
+
+
+    gcr-codebase/
+    └── programming-elements/
+        ├── Level1/
+        |   ├── Calculator.java
+        |   ├── AreaOfTriangle.java
+        |   ├── AgeOfHarry.java
+        |   ├── SideOfSquare.java
+        |   ├── KilometersToMiles.java
+        |   ├── DistanceInKilometersToMiles.java
+        |   ├── DistanceInYardAndMiles.java
+        |   ├── CentimetersConvertsIntoFeetAndInches.java
+        |   ├── VolumeOfEarth.java
+        |   ├── UnitPriceOfQuantity.java
+        |   ├── EquallyDividedPen.java
+        |   ├── MaximumNumberOfHandshakes.java
+        |   ├── SamAveragePercent.java
+        |   ├── ProfitLoss.java
+        |   ├── UniversityFeeCalculation.java
+        |   └── UniversityFeeCalculationInput.java
+        └── Level2/
+            ├── Calculator.java
+            ├── AreaOfTriangle.java
+            ├── SideOfSquare.java
+            ├── IntOperation.java
+            ├── DoubleOperation.java
+            ├── UnitPriceOfQuantity.java
+            ├── QuotientAndReminder.java
+            └── DistanceInYardAndMiles.java
+
+
+- Completed and pushed programming-elements to GitHub.
+
+*GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
+
+---
