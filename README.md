@@ -264,3 +264,56 @@
 *GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
 
 ---
+
+# Week 2: Advanced Java Programming
+
+## Day 1 – Strings
+
+*(Date: 22-Dec-2025)*
+
+- Learned String manipulation and operations.
+- Practiced string methods, comparisons, and exception handling.
+
+```
+    gcr-codebase/
+    └── strings/
+        ├── Level-1/
+        |   ├── StringCompare.java
+        |   ├── UppercaseCompare.java
+        |   ├── LowercaseCompare.java
+        |   ├── CompareCharArray.java
+        |   ├── SubStringComparison.java
+        |   ├── NullPointerExceptionDemo.java
+        |   ├── StringIndexOutOfBoundsExceptionDemo.java
+        |   ├── ArrayIndexOutOfBoundsExceptionDemo.java
+        |   ├── IllegalArgumentExceptionDemo.java
+        |   └── NumberFormatExceptionDemo.java
+        ├── Level-2/
+        |   ├── StringLength.java
+        |   ├── TrimString.java
+        |   ├── SplitString.java
+        |   ├── SplitString2D.java
+        |   ├── SplitShortestLongest.java
+        |   ├── VowelsConsonants.java
+        |   ├── VowelsConsonants2.java
+        |   ├── StudentCanVote.java
+        |   ├── GradeCalculator.java
+        |   └── RockPaperScissors.java
+        └── Level-3/
+            ├── Palindrome.java
+            ├── Anagrams.java
+            ├── UniqueCharacters.java
+            ├── UniqueCharactersFrequency.java
+            ├── FrequencyCharacters.java
+            ├── NestedFrequencyCharacters.java
+            ├── NonRepeatingCharacter.java
+            ├── BMICalculator.java
+            ├── DisplayCalender.java
+            └── DeckOfCards.java
+```
+
+- Completed and pushed `strings` to GitHub.
+
+*GitHub Repository:* [View on GitHub](https://github.com/Jadhav-Krishna/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
+
+---
