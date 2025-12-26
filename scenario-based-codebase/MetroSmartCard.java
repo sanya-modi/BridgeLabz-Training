@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class MetroSmartCard {
 
     public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
 
-        Scanner scanner = new Scanner(System.in);
+     // Initial smart card balance
+        double balance = 100.0; 
 
-        double balance = 100.0; // Initial smart card balance
-
-        System.out.println("Welcome to Delhi Metro");
+        System.out.println("Welcome to Delhi Metro ");
         System.out.println("Initial Smart Card Balance: Rs. " + balance);
 
         while (balance > 0) {
