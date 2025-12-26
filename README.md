@@ -8,7 +8,7 @@
 
 - Set up GitHub repository.
 
-
+```
     BridgeLabz-Training/
     |── core-java-practice/
     |   └── gcr-codebase/
@@ -23,9 +23,9 @@
     |   └── scenario-based/
     └── .gitignore
     └── README.md
+```
 
-
-- Learned basic Git commands ( init, clone, add, commit, push).
+- Learned basic Git commands ( `init`, `clone`, `add`, `commit`, `push`).
 
 - Successfully pushed files to the remote repository.
 
@@ -40,7 +40,7 @@
 - Learned basic Java programming concepts and syntax.
 - Practiced fundamental programs (arithmetic operations, calculations, conversions).
 
-
+```
     gcr-codebase/
     └── prerequisites/
         ├── WelcomeToBridgelabz.java
@@ -53,9 +53,9 @@
         ├── KilometersToMiles.java
         ├── PowerCalculation.java
         └── CalculateSimpleInterest.java
+```
 
-
-- Completed and pushed all prerequisite programs to GitHub.
+- Completed and pushed all `prerequisite` programs to GitHub.
 
 *GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequisite)
 
@@ -68,7 +68,7 @@
 - Learned industrial coding standards and best practices.
 - Practiced programming elements with various problem-solving exercises.
 
-
+```
     gcr-codebase/
     └── programming-elements/
         ├── Level1/
@@ -97,9 +97,9 @@
             ├── UnitPriceOfQuantity.java
             ├── QuotientAndReminder.java
             └── DistanceInYardAndMiles.java
+```
 
-
-- Completed and pushed programming-elements to GitHub.
+- Completed and pushed `programming-elements` to GitHub.
 
 *GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
