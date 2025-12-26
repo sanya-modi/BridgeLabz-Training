@@ -3,9 +3,9 @@ import java.util.*;
 public class ElectionBoothManager {
 	
 	public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
 
-        Scanner scanner = new Scanner(System.in);
-
+        //Take user input
         int candidate1Votes = 0;
         int candidate2Votes = 0;
         int candidate3Votes = 0;
@@ -56,11 +56,9 @@ public class ElectionBoothManager {
         }
 
         // Final result
-        System.out.println("\n----- Election Results -----");
         System.out.println("Candidate A Votes: " + candidate1Votes);
         System.out.println("Candidate B Votes: " + candidate2Votes);
         System.out.println("Candidate C Votes: " + candidate3Votes);
-        System.out.println("----------------------------");
 
         scanner.close();
     }
