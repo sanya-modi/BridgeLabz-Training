@@ -104,3 +104,68 @@
 *GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
 ---
+
+## Day 4 – Control Flows
+
+*(Date: 18-Dec-2025)*
+
+- Learned control flow concepts (if-else, loops, switch statements).
+- Practiced various control flow exercises across multiple levels.
+
+```
+    gcr-codebase/
+    └── control-flows/
+        ├── Level-1/
+        |   ├── PersonCanVote.java
+        |   ├── OddAndEven.java
+        |   ├── PositiveNegativeZero.java
+        |   ├── DivisibleByFive.java
+        |   ├── SmallestOfNumbers.java
+        |   ├── FirstSecondOrThirdLargestNumber.java
+        |   ├── SpringSeason.java
+        |   ├── MultiplicationTable.java
+        |   ├── Factorial.java
+        |   ├── FactorialFor.java
+        |   ├── SumOfNaturalNumber.java
+        |   ├── SumOfNaturalNumberWithFor.java
+        |   ├── SumOfNaturalNumberWithWhile.java
+        |   ├── SumOfNumberUntilZero.java
+        |   ├── SumOfNumberUntilZeroWithBreak.java
+        |   ├── RocketLaunch.java
+        |   ├── RocketLaunchForloop.java
+        |   └── EmployeesBonus.java
+        ├── Level-2/
+        |   ├── OddAndEven.java
+        |   ├── FizzBuzz.java
+        |   ├── FizzBuzzWhile.java
+        |   ├── MultiplicationTable.java
+        |   ├── Factor.java
+        |   ├── FactorWhile.java
+        |   ├── GreatestFactor.java
+        |   ├── GreatestFactorWhile.java
+        |   ├── MultiplesOfNumber.java
+        |   ├── MultiplesOfNumberWhile.java
+        |   ├── PowerOfNumber.java
+        |   ├── PowerOfNumberWhile.java
+        |   ├── YoungestFriend.java
+        |   └── EmployeesBonus.java
+        └── Level-3/
+            ├── IsPrime.java
+            ├── LeapYear.java
+            ├── LeapYearLogical.java
+            ├── DayOfWeek.java
+            ├── SwitchCaseCalculator.java
+            ├── BMICalculator.java
+            ├── PercentageCalculator.java
+            ├── DigitCounter.java
+            ├── ArmstrongNumber.java
+            ├── ArmstrongNumbers.java
+            ├── HarshadNumber.java
+            └── AbundantNumber.java
+```
+
+- Completed and pushed `control-flows` to GitHub.
+
+*GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
+
+---
