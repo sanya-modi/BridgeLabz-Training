@@ -314,6 +314,6 @@
 
 - Completed and pushed `strings` to GitHub.
 
-*GitHub Repository:* [View on GitHub](https://github.com/Jadhav-Krishna/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
+*GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
 
 ---
