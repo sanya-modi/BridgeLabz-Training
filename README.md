@@ -169,3 +169,42 @@
 *GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
 
 ---
+
+## Day 5 – Arrays
+
+*(Date: 19-Dec-2025)*
+
+- Learned array concepts and operations.
+- Practiced array manipulation and multi-dimensional arrays.
+
+```
+    gcr-codebase/
+    └── arrays/
+        ├── Level-1/
+        |   ├── StudentCanVote.java
+        |   ├── OddEvenArray.java
+        |   ├── PositiveNegativeZero.java
+        |   ├── FactorArray.java
+        |   ├── FizzBuzz.java
+        |   ├── MultiplicationTable.java
+        |   ├── MultiplicationTableInRange.java
+        |   ├── MultipleValueUntilZero.java
+        |   ├── FootballTeamHeightMean.java
+        |   └── MultiDimensionalInsSingleDimension.java
+        └── Level-2/
+            ├── YoungestFriend.java
+            ├── DigitOfNumber.java
+            ├── ReverseNumber.java
+            ├── FrequencyCount.java
+            ├── BMICalculator.java
+            ├── BMICalculatorMultidimentional.java
+            ├── GradeCalculator.java
+            ├── GradeCalculatorMultidimentional.java
+            └── EmployeesBonus.java
+```
+
+- Completed and pushed `arrays` to GitHub.
+
+*GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
+
+---
