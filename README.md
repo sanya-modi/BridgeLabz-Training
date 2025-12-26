@@ -32,3 +32,31 @@
 *GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/new/core-java-practice)
 
 ---
+
+## Day 2 – Java Programming Fundamentals
+
+*(Date: 16-Dec-2025)*
+
+- Learned basic Java programming concepts and syntax.
+- Practiced fundamental programs (arithmetic operations, calculations, conversions).
+
+
+    gcr-codebase/
+    └── prerequisites/
+        ├── WelcomeToBridgelabz.java
+        ├── AddTwoNumber.java
+        ├── AreaOfCircle.java
+        ├── AverageOfThreeNumbers.java
+        ├── PerimeterOfRectangle.java
+        ├── VolumeOfCylinder.java
+        ├── CelsiusToFahrenheitConversion.java
+        ├── KilometersToMiles.java
+        ├── PowerCalculation.java
+        └── CalculateSimpleInterest.java
+
+
+- Completed and pushed all prerequisite programs to GitHub.
+
+*GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequisite)
+
+---
