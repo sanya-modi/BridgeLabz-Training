@@ -29,7 +29,7 @@
 
 - Successfully pushed files to the remote repository.
 
-*GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/new/core-java-practice)
+🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/new/core-java-practice)
 
 ---
 
@@ -41,7 +41,7 @@
 - Practiced fundamental programs (arithmetic operations, calculations, conversions).
 - Completed and pushed all `prerequisite` programs to GitHub.
 
-*GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequisite)
+🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequisite)
 
 ---
 
@@ -55,7 +55,7 @@
 - Practiced programming elements with various problem-solving exercises.
 - Completed and pushed `programming-elements` to GitHub.
 
-*GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
+🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
 ---
 
@@ -70,7 +70,7 @@
 - Practiced various control flow exercises across multiple levels.
 - Completed and pushed `control-flows` to GitHub.
 
-*GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
+🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
 
 ---
 
@@ -82,7 +82,7 @@
 - Practiced array manipulation and multi-dimensional arrays.
 - Completed and pushed `arrays` to GitHub.
 
-*GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
+🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
 
 ---
 
@@ -96,7 +96,7 @@
 - Practiced string methods, comparisons, and exception handling.
 - Completed and pushed `methods` and `strings` to GitHub.
 
-*GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
+🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
 
 ---
 
@@ -108,7 +108,30 @@
 - Worked on date/time operations and recursive algorithms.
 - Completed and pushed `extras` to GitHub.
 
-*GitHub Repository:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)
+🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)
 
 ---
 
+## LeetCode Practice
+
+- Practiced leetcode questions on the previously learned topics.
+  - Two Sum
+  - Remove Element
+  - Matrix Spiral
+- Completed and pushed on GitHub.
+ 
+🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/arrays)
+
+---
+
+## Scenario-Based Practice
+
+- Practiced questions on real world scenario
+  - BMI Fitness Tracker
+  - Coffee Counter Chronicles
+  - Election Booth Manager
+  - Metro Smart Card
+  - Result Generator
+- Completed and pushed on GitHub.
+
+🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
