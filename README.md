@@ -120,6 +120,11 @@
   - Two Sum
   - Remove Element
   - Matrix Spiral
+  - Search Position
+  - Remove Duplicate
+  - Word Length
+  - Palindrome
+  - Word Length
 - Completed and pushed on GitHub.
  
 🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/arrays)
