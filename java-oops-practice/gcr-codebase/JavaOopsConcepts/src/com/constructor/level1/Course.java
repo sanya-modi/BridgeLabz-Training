@@ -8,7 +8,7 @@ public class Course {
     double fee;
 
     // Class variable 
-    static String instituteName = "Tech Academy";
+    static String instituteName = "TIT";
 
     // Parameterized Constructor
     Course(String courseName, int duration, double fee) {
