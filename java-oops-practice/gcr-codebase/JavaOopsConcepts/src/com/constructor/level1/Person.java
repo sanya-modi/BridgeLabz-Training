@@ -5,13 +5,13 @@ public class Person {
 	 String name;
 	    int age;
 
-	    // 1️⃣ Parameterized constructor
+	    //Parameterized constructor
 	    Person(String name, int age) {
 	        this.name = name;
 	        this.age = age;
 	    }
 
-	    // 2️⃣ Copy constructor
+	    //Copy constructor
 	    Person(Person other) {
 	        this.name = other.name;
 	        this.age = other.age;
