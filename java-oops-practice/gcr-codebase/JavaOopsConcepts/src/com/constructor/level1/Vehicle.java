@@ -19,7 +19,7 @@ public class Vehicle {
     void displayVehicleDetails() {
         System.out.println("Owner Name        : " + ownerName);
         System.out.println("Vehicle Type      : " + vehicleType);
-        System.out.println("Registration Fee  : ₹" + registrationFee);
+        System.out.println("Registration Fee  : " + registrationFee);
         System.out.println();
     }
 
