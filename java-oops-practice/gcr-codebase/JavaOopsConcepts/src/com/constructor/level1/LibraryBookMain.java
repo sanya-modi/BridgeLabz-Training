@@ -3,6 +3,8 @@ package com.constructor.level1;
 public class LibraryBookMain {
 
 	public static void main(String[] args) {
+		
+		//Initialize object using parameterized constructor
 		 LibraryBookSystem b1 = new LibraryBookSystem("Clean Code", "Robert C. Martin", 550);
 
 	        b1.displayDetails();
