@@ -184,3 +184,26 @@
 
 🔗 *Link:* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
 
+---
+
+### Day 12
+
+*(Date: 30-Dec-2025)*
+
+- Solved leetcode array questions on previously learned topics.
+  - Add String
+  - Fizz Buzz
+  - Fibonacci
+  - Next Number
+- Solved questions on real world scenario.
+  - Temperature Logger
+  - Train Reservation
+  - Fitness Tracker
+  - Movie Ticket Booking
+  - Library Fine Reminder
+- Implemented the previously learned topics.
+- Completed and pushed to GitHub.
+
+🔗 *Link:* [LeetCode](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase) 
+
+🔗 *Link:* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
