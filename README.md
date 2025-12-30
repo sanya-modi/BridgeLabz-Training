@@ -1,6 +1,6 @@
-# Week 1: Git, GitHub & Java Programming Fundamentals
+## Week 1: Git, GitHub & Java Programming Fundamentals
 
-## Day 1 – Git & GitHub Setup
+### Day 1 – Git & GitHub Setup
 
 *(Date: 16-Dec-2025)*
 
@@ -33,7 +33,7 @@
 
 ---
 
-## Day 2 – Java Programming Fundamentals
+### Day 2 – Java Programming Fundamentals
 
 *(Date: 17-Dec-2025)*
 
@@ -45,7 +45,7 @@
 
 ---
 
-## Day 3 – Programming Elements
+### Day 3 – Programming Elements
 
 *(Date: 18-Dec-2025)*
 
@@ -59,7 +59,7 @@
 
 ---
 
-## Day 4 – Control Flows
+### Day 4 – Control Flows
 
 *(Date: 19-Dec-2025)*
 
@@ -74,7 +74,7 @@
 
 ---
 
-## Day 5 – Arrays
+### Day 5 – Arrays
 
 *(Date: 20-Dec-2025)*
 
@@ -86,7 +86,7 @@
 
 ---
 
-## Day 6 – Strings & Methods
+### Day 6 – Strings & Methods
 
 *(Date: 22-Dec-2025)*
 
@@ -100,7 +100,7 @@
 
 ---
 
-## Day 7 – Extras (Built-In Methods & String Practice)
+### Day 7 – Extras (Built-In Methods & String Practice)
 
 *(Date: 23-Dec-2025)*
 
@@ -112,31 +112,75 @@
 
 ---
 
-## LeetCode Practice
+## LeetCode and Scenario-Based Practice
 
-- Practiced leetcode questions on the previously learned topics.
+### Day 8  
+
+*(Date: 24-Dec-2025)*
+
+- Solved leetcode array questions on previously learned topics.
   - Two Sum
   - Remove Element
   - Matrix Spiral
-  - Search Position
-  - Remove Duplicate
-  - Word Length
-  - Palindrome
-  - Word Length
-- Completed and pushed on GitHub.
- 
-🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/arrays)
+- Practiced real life, scenario based problems.
+  - BMI Fitness Tracker
+  - Coffee Counter Chronicles
+- Implemented the previously learned topics.
+- Completed and pushed to GitHub.
+
+🔗 *Link:* [LeetCode](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/arrays) 
+
+🔗 *Link:* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
 
 ---
 
-## Scenario-Based Practice
+### Day 9
 
-- Practiced questions on real world scenario
-  - BMI Fitness Tracker
-  - Coffee Counter Chronicles
+*(Date: 26-Dec-2025)*
+
+- Solved leetcode array questions on previously learned topics.
+  - Search Position
+  - Remove Duplicate
+- Solved questions on real world scenario.
   - Election Booth Manager
   - Metro Smart Card
   - Result Generator
+- Implemented the previously learned topics.
+- Completed and pushed to GitHub.
+
+🔗 *Link:* [LeetCode](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/arrays) 
+
+🔗 *Link:* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+
+---
+
+###  Day 10
+
+*(Date: 27-Dec-2025)*
+
+- Solved leetcode string questions on previously learned topics.
+  - ColumnNumber
+  - Word Length
+  - Palindrome
+- Implemented the previously learned topics.
 - Completed and pushed on GitHub.
 
-🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+🔗 *Link:* [LeetCode](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/strings) 
+ 
+---
+
+### Day 11
+
+*(Date: 29-Dec-2025)*
+
+- Solved questions on real world scenario.
+  - Parkiing System
+  - Number Guessing Game
+  - Discound Dashboard
+  - Bus Attendance System
+  - Phone Recharge Simulator
+- Implemented the previously learned topics.
+- Completed and pushed on GitHub.
+
+🔗 *Link:* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+
