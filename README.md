@@ -114,31 +114,141 @@
 
 ---
 
-### LeetCode Practice
+## LeetCode and Scenario-Based Practice
 
-- Practiced leetcode questions on the previously learned topics.
+### Day 8  
+
+*(Date: 24-Dec-2025)*
+
+- Solved leetcode array questions on previously learned topics.
   - Two Sum
   - Remove Element
   - Matrix Spiral
-  - Search Position
-  - Remove Duplicate
-  - Word Length
-  - Palindrome
-  - Word Length
-- Completed and pushed on GitHub.
- 
-🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/arrays)
+- Practiced real life, scenario based problems.
+  - BMI Fitness Tracker
+  - Coffee Counter Chronicles
+- Implemented the previously learned topics.
+- Completed and pushed to GitHub.
+
+🔗 *Link:* [LeetCode](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/arrays) 
+
+🔗 *Link:* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
 
 ---
 
-### Scenario-Based Practice
+### Day 9
 
-- Practiced questions on real world scenario
-  - BMI Fitness Tracker
-  - Coffee Counter Chronicles
+*(Date: 26-Dec-2025)*
+
+- Solved leetcode array questions on previously learned topics.
+  - Search Position
+  - Remove Duplicate
+- Solved questions on real world scenario.
   - Election Booth Manager
   - Metro Smart Card
   - Result Generator
+- Implemented the previously learned topics.
+- Completed and pushed to GitHub.
+
+🔗 *Link:* [LeetCode](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/arrays) 
+
+🔗 *Link:* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+
+---
+
+###  Day 10
+
+*(Date: 27-Dec-2025)*
+
+- Solved leetcode string questions on previously learned topics.
+  - ColumnNumber
+  - Word Length
+  - Palindrome
+- Implemented the previously learned topics.
 - Completed and pushed on GitHub.
 
-🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+🔗 *Link:* [LeetCode](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase/strings) 
+ 
+---
+
+### Day 11
+
+*(Date: 29-Dec-2025)*
+
+- Solved questions on real world scenario.
+  - Parkiing System
+  - Number Guessing Game
+  - Discound Dashboard
+  - Bus Attendance System
+  - Phone Recharge Simulator
+- Implemented the previously learned topics.
+- Completed and pushed on GitHub.
+
+🔗 *Link:* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+
+---
+
+### Day 12
+
+*(Date: 30-Dec-2025)*
+
+- Solved leetcode array questions on previously learned topics.
+  - Add String
+  - Fizz Buzz
+  - Fibonacci
+  - Next Number
+- Solved questions on real world scenario.
+  - Temperature Logger
+  - Train Reservation
+  - Fitness Tracker
+  - Movie Ticket Booking
+  - Library Fine Reminder
+- Implemented the previously learned topics.
+- Completed and pushed to GitHub.
+
+🔗 *Link:* [LeetCode](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase) 
+
+🔗 *Link:* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+
+---
+
+## Week 2 : Object Oriented Programming Concepts
+
+### Day 1 - class & object
+
+*(Date: 26-Dec-2025)*
+
+- Learned `Procedural Programming` Overview
+- Learned `Object-oriented Programming` (OOP) Overview
+- Learned Java - `Class` and `Object`
+
+🔗 *Link :* [view on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
+
+---
+
+### Day 2 - constructor
+
+*(Date: 27-Dec-2025)*
+
+- Learned the concept of `constructors` in Java, including their rules and role in initializing objects.
+- Practiced `constructor overloading` `using default`, `parameterized`, and `copy` constructors.
+- Learned `access modifiers` (`public`, `protected`, `default`, and `private`) along with their scope of accessibility.
+- Differentiated between `instance` and `class` (static) variables and methods using practical examples.
+- Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [view on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
+
+---
+
+### Day 3 -  Java Inbuilt Keywords (this, static, final, instanceof)
+
+*(Date: 29-Dec-2025)*
+
+- Understood the purpose and usage of the `this` keyword to refer to the current object and resolve variable ambiguity and contructor chaining.
+- Learned the `static` keyword and its use with variables, methods, and blocks to share data across objects.
+- Studied the `final` keyword and its application with variables, methods, and classes to restrict modification and inheritance.
+- Practiced the `instanceof` keyword to check object type and ensure safe type casting.
+- Completed multiple real-world programs to strengthen understanding and practical implementation of these keywords.
+
+🔗 *Link :* [view on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/keywords/level1)
+
