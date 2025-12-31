@@ -17,7 +17,8 @@ public class LibraryManagement {
         centralLibrary.addBook(b1);
         centralLibrary.addBook(b2);
 
-        collegeLibrary.addBook(b2); // Same book in another library
+        // Same book in another library
+        collegeLibrary.addBook(b2); 
         collegeLibrary.addBook(b3);
 
         // Display books
