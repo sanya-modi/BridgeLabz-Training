@@ -9,8 +9,7 @@ public class Bank {
 	    }
 
 	    public void openAccount(Customer customer) {
-	        System.out.println("Account opened for " + customer.getName()
-	                + " in " + bankName);
+	        System.out.println("Account opened for " + customer.getName() + " in " + bankName);
 	    }
 
 	    public String getBankName() {
