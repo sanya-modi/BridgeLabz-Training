@@ -1,4 +1,4 @@
-package com.objectmodelling.ClassObjectAndSequenceDiagram.GroceryStoreBill;
+package com.ClassObjectAndSequenceDiagram.GroceryStoreBill;
 
 import java.util.ArrayList;
 import java.util.List;
