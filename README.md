@@ -8,7 +8,7 @@
 - Learned `Object-oriented Programming` (OOP) Overview
 - Learned Java - `Class` and `Object`
 
-🔗 *Link :* [view on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
+🔗 *Link :* [Class and Object](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
 
 ---
 
@@ -22,7 +22,7 @@
 - Differentiated between `instance` and `class` (static) variables and methods using practical examples.
 - Successfully completed all assigned programs and verified the output results.
 
-🔗 *Link :* [view on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
+🔗 *Link :* [Constructor](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
 
 ---
 
@@ -36,4 +36,38 @@
 - Practiced the `instanceof` keyword to check object type and ensure safe type casting.
 - Completed multiple real-world programs to strengthen understanding and practical implementation of these keywords.
 
-🔗 *Link :* [view on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/keywords/level1)
+🔗 *Link :* [Keywords](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/keywords/level1)
+
+---
+
+### Day 4 - Classes, Objects & UML Diagrams
+
+*(Date: 30-Dec-2025)*
+
+- Understood the difference between `classes` and `objects`, where a class acts as a blueprint and objects represent real instances created at runtime.
+- Learned about `class diagrams` and how they define the static structure of a system using classes, attributes, methods, and relationships.
+- Studied `object diagrams` to visualize actual object instances and their state at a specific point in time.
+- Explored `sequence diagrams` to understand the flow of interactions and method calls between objects in a time-ordered manner.
+- Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [Object Modelling](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/object_modelling)
+
+🔗 *Link :* [UML Diagrams](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/ClassObjectAndSequenceDiagram)
+
+---
+
+### Day 5 - Inheritance
+
+*(Date: 31-Dec-2025)*
+
+- Learned the concept of `inheritance` and how one class can acquire properties and methods of another class.
+- Studied `single-level` inheritance and its use when one child class inherits from one parent class.
+- Understood `multilevel` inheritance where a class inherits from another derived class.
+- Learned `hierarchical` inheritance where multiple child classes inherit from the same parent class.
+- Explored the key features of inheritance such as `code reusability` and `method overriding`.
+- Practiced `method overriding` to achieve runtime polymorphism.
+- Understood how `constructors` work in inheritance and the role of the super keyword.
+- Studied how `access modifiers` affect inheritance and member visibility across classes.
+- Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [Inheritance](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
