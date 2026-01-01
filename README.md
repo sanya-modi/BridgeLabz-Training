@@ -43,7 +43,7 @@
 - Practiced fundamental programs (arithmetic operations, calculations, conversions).
 - Completed and pushed all `prerequisite` programs to GitHub.
 
-🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequisite)
+🔗 *Link:* [Fundamentals](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequisite)
 
 ---
 
@@ -57,7 +57,7 @@
 - Practiced programming elements with various problem-solving exercises.
 - Completed and pushed `programming-elements` to GitHub.
 
-🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
+🔗 *Link:* [Programming Elements](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
 ---
 
@@ -72,7 +72,7 @@
 - Practiced various control flow exercises across multiple levels.
 - Completed and pushed `control-flows` to GitHub.
 
-🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
+🔗 *Link:* [Control Flows](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
 
 ---
 
@@ -84,7 +84,7 @@
 - Practiced array manipulation and multi-dimensional arrays.
 - Completed and pushed `arrays` to GitHub.
 
-🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
+🔗 *Link:* [Arrays](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
 
 ---
 
@@ -98,7 +98,9 @@
 - Practiced string methods, comparisons, and exception handling.
 - Completed and pushed `methods` and `strings` to GitHub.
 
-🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
+🔗 *Link:* [Methods](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
+
+🔗 *Link:* [Strings](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
 
 ---
 
@@ -110,7 +112,7 @@
 - Worked on date/time operations and recursive algorithms.
 - Completed and pushed `extras` to GitHub.
 
-🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)
+🔗 *Link:* [Extras](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)
 
 ---
 
@@ -212,6 +214,23 @@
 
 ---
 
+### Day 13
+
+*(Date: 31-Dec-2025)*
+
+- Solved questions on real world scenario.
+  - Digital Watch Simulation
+  - Online Quiz Application
+  - Currency Exchange
+  - Bus Route Distance Tracker
+  - Festival Lucky Draw
+- Implemented the previously learned topics.
+- Completed and pushed to GitHub.
+
+🔗 *Link:* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+
+---
+
 ## Week 2 : Object Oriented Programming Concepts
 
 ### Day 1 - class & object
@@ -222,7 +241,7 @@
 - Learned `Object-oriented Programming` (OOP) Overview
 - Learned Java - `Class` and `Object`
 
-🔗 *Link :* [view on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
+🔗 *Link :* [Class and Object](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
 
 ---
 
@@ -236,7 +255,7 @@
 - Differentiated between `instance` and `class` (static) variables and methods using practical examples.
 - Successfully completed all assigned programs and verified the output results.
 
-🔗 *Link :* [view on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
+🔗 *Link :* [Constructor](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
 
 ---
 
@@ -250,5 +269,40 @@
 - Practiced the `instanceof` keyword to check object type and ensure safe type casting.
 - Completed multiple real-world programs to strengthen understanding and practical implementation of these keywords.
 
-🔗 *Link :* [view on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/keywords/level1)
+🔗 *Link :* [Keywords](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/keywords/level1)
+
+---
+
+### Day 4 - Classes, Objects & UML Diagrams
+
+*(Date: 30-Dec-2025)*
+
+- Understood the difference between `classes` and `objects`, where a class acts as a blueprint and objects represent real instances created at runtime.
+- Learned about `class diagrams` and how they define the static structure of a system using classes, attributes, methods, and relationships.
+- Studied `object diagrams` to visualize actual object instances and their state at a specific point in time.
+- Explored `sequence diagrams` to understand the flow of interactions and method calls between objects in a time-ordered manner.
+- Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [Object Modelling](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/object_modelling)
+
+🔗 *Link :* [UML Diagrams](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/ClassObjectAndSequenceDiagram)
+
+---
+
+### Day 5 - Inheritance
+
+*(Date: 31-Dec-2025)*
+
+- Learned the concept of `inheritance` and how one class can acquire properties and methods of another class.
+- Studied `single-level` inheritance and its use when one child class inherits from one parent class.
+- Understood `multilevel` inheritance where a class inherits from another derived class.
+- Learned `hierarchical` inheritance where multiple child classes inherit from the same parent class.
+- Explored the key features of inheritance such as `code reusability` and `method overriding`.
+- Practiced `method overriding` to achieve runtime polymorphism.
+- Understood how `constructors` work in inheritance and the role of the super keyword.
+- Studied how `access modifiers` affect inheritance and member visibility across classes.
+- Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [Inheritance](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+
 
