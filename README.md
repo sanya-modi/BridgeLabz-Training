@@ -41,7 +41,7 @@
 - Practiced fundamental programs (arithmetic operations, calculations, conversions).
 - Completed and pushed all `prerequisite` programs to GitHub.
 
-🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequisite)
+🔗 *Link:* [Fundamentals](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequisite)
 
 ---
 
@@ -55,7 +55,7 @@
 - Practiced programming elements with various problem-solving exercises.
 - Completed and pushed `programming-elements` to GitHub.
 
-🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
+🔗 *Link:* [Programming Elements](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
 ---
 
@@ -70,7 +70,7 @@
 - Practiced various control flow exercises across multiple levels.
 - Completed and pushed `control-flows` to GitHub.
 
-🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
+🔗 *Link:* [Control Flows](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
 
 ---
 
@@ -82,7 +82,7 @@
 - Practiced array manipulation and multi-dimensional arrays.
 - Completed and pushed `arrays` to GitHub.
 
-🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
+🔗 *Link:* [Arrays](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
 
 ---
 
@@ -96,7 +96,9 @@
 - Practiced string methods, comparisons, and exception handling.
 - Completed and pushed `methods` and `strings` to GitHub.
 
-🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
+🔗 *Link:* [Methods](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
+
+🔗 *Link:* [Strings](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
 
 ---
 
@@ -108,7 +110,7 @@
 - Worked on date/time operations and recursive algorithms.
 - Completed and pushed `extras` to GitHub.
 
-🔗 *Link:* [View on GitHub](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)
+🔗 *Link:* [Extras](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra)
 
 ---
 
@@ -205,5 +207,22 @@
 - Completed and pushed to GitHub.
 
 🔗 *Link:* [LeetCode](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/leetcode-codebase) 
+
+🔗 *Link:* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+
+---
+
+### Day 13
+
+*(Date: 31-Dec-2025)*
+
+- Solved questions on real world scenario.
+  - Digital Watch Simulation
+  - Online Quiz Application
+  - Currency Exchange
+  - Bus Route Distance Tracker
+  - Festival Lucky Draw
+- Implemented the previously learned topics.
+- Completed and pushed to GitHub.
 
 🔗 *Link:* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
