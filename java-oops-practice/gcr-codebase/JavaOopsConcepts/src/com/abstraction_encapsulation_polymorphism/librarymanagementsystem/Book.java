@@ -8,7 +8,7 @@ public class Book extends LibraryItem implements Reservable {
 
     @Override
     public int getLoanDuration() {
-        return 14; // days
+        return 14; 
     }
 
     @Override

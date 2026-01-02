@@ -8,7 +8,7 @@ public class Magazine extends LibraryItem implements Reservable {
 
     @Override
     public int getLoanDuration() {
-        return 7; // days
+        return 7; 
     }
 
     @Override
