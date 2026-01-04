@@ -1,4 +1,4 @@
-package task_scheduler;
+package linkedlist.task_scheduler;
 
 import java.util.Date;
 import java.util.Scanner;
