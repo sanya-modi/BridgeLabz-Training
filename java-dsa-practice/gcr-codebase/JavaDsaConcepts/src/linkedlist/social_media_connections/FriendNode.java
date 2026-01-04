@@ -1,4 +1,4 @@
-package social_media_connections;
+package linkedlist.social_media_connections;
 
 public class FriendNode {
 	
