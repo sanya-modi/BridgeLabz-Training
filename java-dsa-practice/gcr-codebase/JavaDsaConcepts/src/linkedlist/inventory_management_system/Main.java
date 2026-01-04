@@ -1,4 +1,4 @@
-package inventory_management_system;
+package linkedlist.inventory_management_system;
 
 import java.util.Scanner;
 
