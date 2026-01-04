@@ -1,4 +1,4 @@
-package library_management_system;
+package linkedlist.library_management_system;
 
 public class LibraryList {
 	
