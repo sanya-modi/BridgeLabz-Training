@@ -1,4 +1,4 @@
-package student_record_management;
+package linkedlist.student_record_management;
 
 public class Student {
 
