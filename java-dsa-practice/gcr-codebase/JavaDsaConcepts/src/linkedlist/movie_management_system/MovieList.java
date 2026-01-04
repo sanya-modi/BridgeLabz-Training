@@ -1,4 +1,4 @@
-package movie_management_system;
+package linkedlist.movie_management_system;
 
 public class MovieList {
 	
