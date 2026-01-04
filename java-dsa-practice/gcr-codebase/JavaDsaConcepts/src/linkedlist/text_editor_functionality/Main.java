@@ -1,4 +1,4 @@
-package text_editor_functionality;
+package linkedlist.text_editor_functionality;
 
 import java.util.Scanner;
 
