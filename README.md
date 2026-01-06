@@ -117,3 +117,15 @@
  - MyBank – Managing Customer Accounts
 
 🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
+
+---
+
+### Day 9 
+
+*(Date: 05-Jan-2026)*
+
+- Practiced real life, scenario based problems.
+  - CampusConnect – College Information System
+  - SwiftCart – The Grocery Shopping App
+
+🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
