@@ -5,6 +5,7 @@ This repository documents my complete day-wise learning journey at BridgeLabz.
 ---
 
 ### Day 1 – Git & GitHub Setup
+
 *(Date: 16-Dec-2025)*
 
 - Installed and configured Git.
@@ -38,6 +39,7 @@ BridgeLabz-Training/
 ---
 
 ### Day 2 – Git Practice & Basic Java Programs
+
 *(Date: 17-Dec-2025)*
 
 - Practiced Git workflow to understand commits and version control.
@@ -231,7 +233,7 @@ BridgeLabz-Training/
 
 ---
 
-### Day 12 – Object-Oriented Design & UML Diagrams
+### Day 12 – Object-Oriented Design, UML Diagrams, Scenario-Based & LeetCode
 
 *(Date: 30-Dec-2025)*
 
@@ -347,5 +349,27 @@ BridgeLabz-Training/
 🔗 Link : [Stack and Queue](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/stack_queue)
 
 🔗 Link : [HashMap and HashingFunction](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/hashmap_hashfunction)
+
+🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
+
+---
+
+### Day 17 - Sorting Algorithms & Scenario-Based
+
+*(Date: 05-Jan-2026)*
+
+- Studied and implemented different sorting algorthims.
+- `Bubble Sort`: Repeatedly compares and swaps adjacent elements until the list is fully sorted.
+- `Insertion Sort`: Builds the sorted array one element at a time by inserting each element into its correct position.
+- `Merge Sort`: Uses a divide-and-conquer approach to split the array and merge sorted subarrays into a final sorted array.
+- `Quick Sort`: Partitions the array around a pivot and recursively sorts the subarrays for efficient average performance.
+- `Counting Sort`: Sorts elements by counting occurrences of each value, making it efficient for a known, limited range of integers.
+- `Selection Sort`: Repeatedly selects the smallest element from the unsorted portion and places it at the correct position.
+- `Heap Sort`: Uses a heap data structure to repeatedly extract the maximum or minimum element to produce a sorted array.
+- Practiced real life, scenario based problems.
+  - CampusConnect – College Information System
+  - SwiftCart – The Grocery Shopping App
+
+🔗 *Link :* [sorting](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/sorting)
 
 🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
