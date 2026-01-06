@@ -103,6 +103,7 @@
  - University Cousre Enrollment System
  - E-wallet Application
  - Smart Home Automation System
+-  Successfully completed all assigned programs and verified the output results.
 
 🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
 
@@ -115,6 +116,7 @@
 - Practiced real life, scenario based problems.
  - CabbyGo – A Ride-Hailing Application
  - MyBank – Managing Customer Accounts
+-  Successfully completed all assigned programs and verified the output results.
 
 🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
 
@@ -127,5 +129,21 @@
 - Practiced real life, scenario based problems.
   - CampusConnect – College Information System
   - SwiftCart – The Grocery Shopping App
+-  Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
+
+---
+
+### Day 10
+
+*(Date: 06-Jan-2026)*
+
+- Practiced real life, scenario based problems.
+  - EduMentor – Personalized Learning Platform
+  - FitTrack – Your Personal Fitness Tracke
+  - PetPal – Virtual Pet Care App
+  - EventEase – Event Management Platform
+-  Successfully completed all assigned programs and verified the output results.
 
 🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
