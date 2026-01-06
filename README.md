@@ -46,7 +46,7 @@ BridgeLabz-Training/
 
 🔗 *Link:* [Fundamentals](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequisite)
 
---------------------------------------------------
+---
 
 ### Day 3 – Programming Elements
 
@@ -138,6 +138,8 @@ BridgeLabz-Training/
 
 🔗 *Link:* [Strings](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/strings)
 
+---
+
 ### Day 8 – Extras: String Handling, Built-in Functions & Date/Time
 
 *(Date: 24-Dec-2025)*
@@ -227,7 +229,7 @@ BridgeLabz-Training/
 
 🔗 *Link:* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
 
---------------------------------------------------
+---
 
 ### Day 12 – Object-Oriented Design & UML Diagrams
 
@@ -287,7 +289,7 @@ BridgeLabz-Training/
 
 🔗 *Link:* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
 
---------------------------------------------------
+---
 
 ### Day 14 – Encapsulation, Polymorphism & Abstraction
 
@@ -304,3 +306,25 @@ BridgeLabz-Training/
 
 🔗 *Link :* [Abstaction-Encapsulation-Polymorphism](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/abstraction_encapsulation_polymorphism)
 
+---
+
+### Day 15 - Linked List & Scenario-Based
+
+(Date: 02-Jan-2026)
+
+- Learned the introduction and importance of data structures in organizing and managing data efficiently.
+- Studied key features of data structures in Java such as efficiency, reusability, and optimization.
+- Understood different types of data structures in Java including linear and non-linear structures.
+- Learned the concept and working of single linked lists.
+- Studied doubly linked lists and how they allow traversal in both directions.
+- Understood circular linked lists and their advantages over linear linked lists.
+- Practiced real life, scenario based problems.
+  - Hospital Management System
+  - Vehicla Rental System
+  - University Cousre Enrollment System
+  - E-wallet Application
+  - Smart Home Automation System
+
+🔗 Link : [Linked List](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/linkedlist)
+
+🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
