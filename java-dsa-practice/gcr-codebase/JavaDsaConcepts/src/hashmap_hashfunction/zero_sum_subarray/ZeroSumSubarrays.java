@@ -7,11 +7,9 @@ public class ZeroSumSubarrays {
 
         // Map: cumulative sum -> list of indices
         Map<Integer, List<Integer>> map = new HashMap<>();
-
         int sum = 0;
 
         for (int i = 0; i < arr.length; i++) {
-
             sum += arr[i];
 
             // Case 1: Subarray from index 0 to i
