@@ -418,3 +418,16 @@ BridgeLabz-Training/
 🔗 *Link :* [runtime analysis](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/runtimeanalysis)
 
 🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
+
+---
+
+### Day 20 - Scenario-Based
+
+*(Date: 08-Jan-2026)*
+
+- Practiced real life, scenario based problems.
+  - MediStore – Pharmacy Inventory & Sales System
+  - TourMate – Travel Itinerary Planner
+-  Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
