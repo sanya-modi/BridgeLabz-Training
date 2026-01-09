@@ -396,3 +396,25 @@ BridgeLabz-Training/
 🔗 *Link :* [linear and binary search](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/linear_and_binarysearch)
 
 🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
+
+---
+
+### Day 19 - Runtime Analysis & Scenario-Based
+
+*(Date: 07-Jan-2026)*
+
+- Learned `runtime analysis` and how it evaluates the efficiency of an algorithm based on time and space usage.
+- Studied `Big-O notation` to express algorithm performance and scalability as input size grows.
+- Understood `time complexity` analysis to measure how execution time increases with input size.
+- Learned `space complexity` analysis to evaluate the amount of memory an algorithm requires.
+- Studied `best`, `worst`, and `average case complexities` to analyze algorithm behavior under different conditions.
+- Learned practical guidelines for optimizing Java code by reducing unnecessary computations and improving performance.
+- - Practiced real life, scenario based problems.
+  - LoanBuddy – Loan Approval Automation
+  - BookBazaar – Digital Bookstore System
+  - ParkEase – Smart Parking Management System
+-  Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [runtime analysis](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/runtimeanalysis)
+
+🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
