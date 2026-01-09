@@ -4,7 +4,7 @@ import java.io.*;
 
 public class FileReadingEfficiency {
 
-    private static final String FILE_PATH = "\"C:\\Users\\modis\\Desktop\\BridgeLabz-Training\\java-dsa-practice\\gcr-codebase\\JavaDsaConcepts\\src\\runtimeanalysis\\file.txt\"";
+    private static final String FILE_PATH = "C:/Users/modis/Desktop/BridgeLabz-Training/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/runtimeanalysis/file.txt";
     private static final int BUFFER_SIZE = 8192; // 8 KB buffer
 
     //  FileReader 
