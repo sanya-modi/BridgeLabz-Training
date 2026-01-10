@@ -1,7 +1,7 @@
 ## Week 2 : Object Oriented Programming Concepts
 
 ### Day 1 - class & object
-
+ 
 *(Date: 26-Dec-2025)*
 
 - Learned `Procedural Programming` Overview
