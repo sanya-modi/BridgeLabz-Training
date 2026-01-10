@@ -1,7 +1,7 @@
 ## Week 2 : Object Oriented Programming Concepts
 
 ### Day 1 - class & object
-
+ 
 *(Date: 26-Dec-2025)*
 
 - Learned `Procedural Programming` Overview
@@ -171,6 +171,20 @@
 - Practiced real life, scenario based problems.
   - MediStore – Pharmacy Inventory & Sales System
   - TourMate – Travel Itinerary Planner
+-  Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
+
+---
+
+### Day 12
+
+*(Date: 09-Jan-2026)*
+
+- Practiced real life, scenario based problems.
+  - Artify – Digital Art Marketplace
+  - FoodLoop – Restaurant Ordering System
+  - SkillForge – Online Learning Portal
 -  Successfully completed all assigned programs and verified the output results.
 
 🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
