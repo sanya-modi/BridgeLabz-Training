@@ -4,6 +4,8 @@ This repository documents my complete day-wise learning journey at BridgeLabz.
 
 ---
 
+## Week 1: Git, GitHub & Java Programming FundamentalsWeek 1 
+
 ### Day 1 – Git & GitHub Setup
 
 *(Date: 16-Dec-2025)*
@@ -163,6 +165,8 @@ BridgeLabz-Training/
 
 ---
 
+## Week 2 : Object Oriented Programming Concepts, Scenario-Based & LeetCode Problems
+
 ### Day 9 – Java OOPS Basics, Scenario-Based & LeetCode
 
 *(Date: 26-Dec-2025)*
@@ -310,6 +314,8 @@ BridgeLabz-Training/
 
 ---
 
+## Week 3 : Data Structure Concepts, Scenario-Based & LeetCode Problems
+
 ### Day 15 - Linked List & Scenario-Based
 
 (Date: 02-Jan-2026)
@@ -456,6 +462,22 @@ BridgeLabz-Training/
  - BookShelf – Library Organizer 
  - BrowserBuddy – Tab History Manager
  - AmbulanceRoute – Emergency Patient Navigation
+-  Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
+
+### Day 23 - Scenario-Based
+
+*(Date: 12-Jan-2026)*
+
+- Practiced real life, scenario based problems.
+ - CallCenter – Customer Queue Manager
+ - TrainCompanion – Compartment Navigation System 
+ - TextEditor – Undo/Redo Functionality
+ - TrafficManager – Roundabout Vehicle Flow
+ - BookShelf – Library Organizer
 -  Successfully completed all assigned programs and verified the output results.
 
 🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
