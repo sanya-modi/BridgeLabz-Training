@@ -4,7 +4,7 @@ This repository documents my complete day-wise learning journey at BridgeLabz.
 
 ---
 
-## Week 1: Git, GitHub & Java Programming FundamentalsWeek 1 
+## Week 1: Git, GitHub & Java Programming Fundamentals
 
 ### Day 1 – Git & GitHub Setup
 
