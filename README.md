@@ -339,7 +339,7 @@ BridgeLabz-Training/
 
 ---
 
-### Day 16 - Stack, Queue, HashMap, Hashing Functions & Scenario-Based
+### Day 16 - Stack, Queue, HashMap, Hashing Functions & Scenario-Based Problems
 
 (Date: 03-Jan-2026)
 
@@ -360,7 +360,7 @@ BridgeLabz-Training/
 
 ---
 
-### Day 17 - Sorting Algorithms & Scenario-Based
+### Day 17 - Sorting Algorithms & Scenario-Based Problems
 
 *(Date: 05-Jan-2026)*
 
@@ -382,7 +382,7 @@ BridgeLabz-Training/
 
 ---
 
-### Day 18 - Linear search, Binary Search & Scenario-Based
+### Day 18 - Linear search, Binary Search & Scenario-Based Problems
 
 *(Date: 06-Jan-2026)*
 
@@ -405,7 +405,7 @@ BridgeLabz-Training/
 
 ---
 
-### Day 19 - Runtime Analysis & Scenario-Based
+### Day 19 - Runtime Analysis & Scenario-Based Probkems
 
 *(Date: 07-Jan-2026)*
 
@@ -427,7 +427,7 @@ BridgeLabz-Training/
 
 ---
 
-### Day 20 - Scenario-Based
+### Day 20 - Scenario-Based Problems
 
 *(Date: 08-Jan-2026)*
 
@@ -440,7 +440,7 @@ BridgeLabz-Training/
 
 ---
 
-### Day 21 - Scenario-Based
+### Day 21 - Scenario-Based Problems
 
 *(Date: 09-Jan-2026)*
 
@@ -454,7 +454,7 @@ BridgeLabz-Training/
 
 ---
 
-### Day 22 - Scenario-Based
+### Day 22 - Scenario-Based Problems
 
 *(Date: 10-Jan-2026)*
 
@@ -468,7 +468,7 @@ BridgeLabz-Training/
 
 ---
 
-### Day 23 - Scenario-Based
+### Day 23 - Scenario-Based Problems
 
 *(Date: 12-Jan-2026)*
 
@@ -478,6 +478,20 @@ BridgeLabz-Training/
  - TextEditor – Undo/Redo Functionality
  - TrafficManager – Roundabout Vehicle Flow
  - BookShelf – Library Organizer
+-  Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
+
+### Day 24 - Scenario-Based Problems
+
+*(Date: 13-Jan-2026)*
+
+- Practiced real life, scenario based problems.
+ - SmartCheckout – Supermarket Billing Queue
+ - ParcelTracker – Delivery Chain Management
+ - ExamProctor – Online Exam Review System
 -  Successfully completed all assigned programs and verified the output results.
 
 🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
