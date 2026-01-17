@@ -5,15 +5,17 @@ import sorting.artexpo.Artist;
 public class BookSorting {
 	
 	public static void insertionSort(Book[] bookList, int n ) {
-		for(int i=0; i<n; i++) {
-			for(int j=0; j<n-1-i; j++) {
-				if(bookList[j].name.compareTo(bookList[j+1].name) > 0) {
-					Book temp = bookList[j];
-					bookList[j] = bookList[j+1];
-					bookList[j+1] = temp; 
-				}
+		for(int i=1; i<n; i++) {
+			Book key = bookList[i];
+			int j = i-1;
+			
+			while(j>=0 && bookList[j].name.compareToIgnoreCase(key.name) > 0) {
+				bookList[j+1] = bookList[j];
+				j--;
 			}
-		}
+			
+			bookList[j+1] = key;
+	}
 	}
 	
 	public static void display(Book[] bookList) {
