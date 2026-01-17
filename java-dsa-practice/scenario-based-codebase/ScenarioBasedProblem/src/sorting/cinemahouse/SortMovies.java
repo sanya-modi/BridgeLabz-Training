@@ -9,9 +9,9 @@ public class SortMovies {
 		for(int i=0; i<n; i++) {
 			for(int j=0; j<n-1-i; j++) {
 				if(movieList[j].showTime.isAfter(movieList[j + 1].showTime) ) {
-					LocalTime temp = movieList[j].showTime;
-					movieList[j].showTime = movieList[j+1].showTime;
-					movieList[j+1].showTime = temp;
+					Movie temp = movieList[j];
+					movieList[j] = movieList[j+1];
+					movieList[j+1]= temp;
 				}
 			}
 		}
