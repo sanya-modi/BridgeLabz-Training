@@ -8,7 +8,7 @@ public class PackageShelf {
 			Package key = shelf[i];
 			int j = i-1;
 			
-			while(j>=0 && shelf[j].weight > shelf[i].weight ) {
+			while(j>=0 && shelf[j].weight > key.weight ) {
 				shelf[j+1] = shelf[j];
 				j--;
 			}
