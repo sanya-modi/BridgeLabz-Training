@@ -3,14 +3,16 @@ package sorting.artexpo;
 public class ArtistSorting {
 	
 	public static void insertionSort(Artist[] artist, int n) {
-		for(int i=0; i<n; i++) {
-			for(int j=0; j<n-1-i; j++) {
-				if(artist[j].time.compareTo(artist[j+1].time) > 0) {
-					Artist temp = artist[j];
-					artist[j] = artist[j+1];
-					artist[j+1] = temp;
-				}
+		for(int i=1; i<n; i++) {
+			Artist key = artist[i];
+			int j= i-1;
+			
+			while(j>=0 && artist[j].time.compareTo(key.time) > 0) {
+				artist[j+1] = artist[j];
+				j--;
 			}
+			
+			artist[j+1] = key;
 		}
 	}
 	
