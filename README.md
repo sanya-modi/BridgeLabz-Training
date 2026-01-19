@@ -152,3 +152,17 @@
 
 🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src/sorting)
   
+---
+
+### Day 11
+
+*(Date: 17-Jan-2026)*
+
+- Practiced real life, scenario based problems on sorting.
+   - ArtExpo – Sort Artists by Registration Time
+   - FleetManager – Vehicle Maintenance Scheduler
+   - IceCreamRush – Sorting Flavors by Popularity
+   - SmartLibrary – Auto-Sort Borrowed Books
+-  Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src/sorting)
