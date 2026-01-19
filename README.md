@@ -85,9 +85,9 @@
 *(Date: 10-Jan-2026)*
 
 - Practiced real life, scenario based problems.
- - BookShelf – Library Organizer 
- - BrowserBuddy – Tab History Manager
- - AmbulanceRoute – Emergency Patient Navigation
+  - BookShelf – Library Organizer 
+  - BrowserBuddy – Tab History Manager
+  - AmbulanceRoute – Emergency Patient Navigation
 -  Successfully completed all assigned programs and verified the output results.
 
 🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
@@ -99,11 +99,11 @@
 *(Date: 12-Jan-2026)*
 
 - Practiced real life, scenario based problems.
- - CallCenter – Customer Queue Manager
- - TrainCompanion – Compartment Navigation System 
- - TextEditor – Undo/Redo Functionality
- - TrafficManager – Roundabout Vehicle Flow
- - BookShelf – Library Organizer
+  - CallCenter – Customer Queue Manager
+  - TrainCompanion – Compartment Navigation System 
+  - TextEditor – Undo/Redo Functionality
+  - TrafficManager – Roundabout Vehicle Flow
+  - BookShelf – Library Organizer
 -  Successfully completed all assigned programs and verified the output results.
 
 🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
@@ -115,9 +115,25 @@
 *(Date: 13-Jan-2026)*
 
 - Practiced real life, scenario based problems.
- - SmartCheckout – Supermarket Billing Queue
- - ParcelTracker – Delivery Chain Management
- - ExamProctor – Online Exam Review System
+  - SmartCheckout – Supermarket Billing Queue
+  - ParcelTracker – Delivery Chain Management
+  - ExamProctor – Online Exam Review System
 -  Successfully completed all assigned programs and verified the output results.
 
 🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
+
+### Day 9
+
+*(Date: 15-Jan-2026)*
+
+- Practiced real life, scenario based problems on sorting.
+   -  HospitalQueue – Patient Sorting by Criticality
+   -  SmartShelf – Real-Time Book Arrangement
+   -  ZipZipMart – Daily Sales Summary Report
+   -  EventManager – Ticket Price Optimizer
+   -  ExamCell – Student Rank Generator
+
+🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src/sorting)
+
