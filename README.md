@@ -134,6 +134,21 @@
    -  ZipZipMart – Daily Sales Summary Report
    -  EventManager – Ticket Price Optimizer
    -  ExamCell – Student Rank Generator
+-  Successfully completed all assigned programs and verified the output results.
 
 🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src/sorting)
 
+---
+
+### Day 10
+
+*(Date: 16-Jan-2026)*
+
+- Practiced real life, scenario based problems on sorting.
+   - RoboWarehouse – Shelf Loading Robot
+   - CinemaHouse – Movie Time Sorting
+   - CropMonitor – Sensor Data Ordering
+-  Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src/sorting)
+  
