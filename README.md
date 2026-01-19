@@ -166,3 +166,17 @@
 -  Successfully completed all assigned programs and verified the output results.
 
 🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src/sorting)
+
+---
+
+### Day 12
+
+*(Date: 19-Jan-2026)*
+
+- Practiced real life, scenario based problems on sorting.
+   - EduResults – Rank Sheet Generator
+   - FlashDealz – Product Sorting by Discount
+   - FitnessTracker – Daily Step Count Ranking
+-  Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src/sorting)
