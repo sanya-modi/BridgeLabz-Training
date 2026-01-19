@@ -472,15 +472,20 @@ BridgeLabz-Training/
 
 *(Date: 12-Jan-2026)*
 
-- Practiced real life, scenario based problems.
+- Practiced real life, scenario based problems of oops and dsa.
   - CallCenter – Customer Queue Manager
   - TrainCompanion – Compartment Navigation System 
   - TextEditor – Undo/Redo Functionality
   - TrafficManager – Roundabout Vehicle Flow
   - BookShelf – Library Organizer
+  - HomeNest – Smart Home Device Manager
+  - BudgetWise – Personal Finance Tracker
+  - GameBox – Mobile Game Distribution Platform
 -  Successfully completed all assigned programs and verified the output results.
 
-🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+🔗 *Link :* [Scenario-Based Dsa](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+🔗 *Link :* [Scenario-Based Oops](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
 
 ---
 
@@ -488,10 +493,30 @@ BridgeLabz-Training/
 
 *(Date: 13-Jan-2026)*
 
-- Practiced real life, scenario based problems.
+- Practiced real life, scenario based problems oops and dsa.
   - SmartCheckout – Supermarket Billing Queue
   - ParcelTracker – Delivery Chain Management
   - ExamProctor – Online Exam Review System
+  - PayXpress – Utility Bill Payment System
+  - Bird Sanctuary
 -  Successfully completed all assigned programs and verified the output results.
 
-🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+🔗 *Link :* [Scenario-Based Dsa](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+🔗 *Link :* [Scenario-Based Oops](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
+
+---
+
+### Day 25 - Scenario-Based Problems
+
+*(Date: 15-Jan-2026)*
+
+- Practiced real life, scenario based problems on sorting.
+   -  HospitalQueue – Patient Sorting by Criticality
+   -  SmartShelf – Real-Time Book Arrangement
+   -  ZipZipMart – Daily Sales Summary Report
+   -  EventManager – Ticket Price Optimizer
+   -  ExamCell – Student Rank Generator
+-  Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src/sorting)
