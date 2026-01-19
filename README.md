@@ -335,7 +335,7 @@ BridgeLabz-Training/
 
 🔗 Link : [Linked List](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/linkedlist)
 
-🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
+🔗 *Link :* [Scenario-Based Oops](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
 
 ---
 
@@ -356,7 +356,7 @@ BridgeLabz-Training/
 
 🔗 Link : [HashMap and HashingFunction](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/hashmap_hashfunction)
 
-🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
+🔗 *Link :* [Scenario-Based Oops](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
 
 ---
 
@@ -378,7 +378,7 @@ BridgeLabz-Training/
 
 🔗 *Link :* [sorting](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/sorting)
 
-🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
+🔗 *Link :* [Scenario-Based Oops](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
 
 ---
 
@@ -401,7 +401,7 @@ BridgeLabz-Training/
 
 🔗 *Link :* [linear and binary search](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/linear_and_binarysearch)
 
-🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
+🔗 *Link :* [Scenario-Based Oops](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
 
 ---
 
@@ -423,11 +423,11 @@ BridgeLabz-Training/
 
 🔗 *Link :* [runtime analysis](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/JavaDsaConcepts/src/runtimeanalysis)
 
-🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
+🔗 *Link :* [Scenario-Based Oops](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
 
 ---
 
-### Day 20 - Scenario-Based Problems
+### Day 20 - Scenario-Based Problems on OOPS
 
 *(Date: 08-Jan-2026)*
 
@@ -436,11 +436,11 @@ BridgeLabz-Training/
   - TourMate – Travel Itinerary Planner
 -  Successfully completed all assigned programs and verified the output results.
 
-🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
+🔗 *Link :* [Scenario-Based Oops](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
 
 ---
 
-### Day 21 - Scenario-Based Problems
+### Day 21 - Scenario-Based Problems on OOPS
 
 *(Date: 09-Jan-2026)*
 
@@ -450,11 +450,11 @@ BridgeLabz-Training/
   - SkillForge – Online Learning Portal
 -  Successfully completed all assigned programs and verified the output results.
 
-🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
+🔗 *Link :* [Scenario-Based Oops](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
 
 ---
 
-### Day 22 - Scenario-Based Problems
+### Day 22 - Scenario-Based Problems on DSA
 
 *(Date: 10-Jan-2026)*
 
@@ -464,11 +464,11 @@ BridgeLabz-Training/
   - AmbulanceRoute – Emergency Patient Navigation
 -  Successfully completed all assigned programs and verified the output results.
 
-🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+🔗 *Link :* [Scenario-Based Dsa](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
 
 ---
 
-### Day 23 - Scenario-Based Problems
+### Day 23 - Scenario-Based Problems on DSA & OOPS
 
 *(Date: 12-Jan-2026)*
 
@@ -489,7 +489,7 @@ BridgeLabz-Training/
 
 ---
 
-### Day 24 - Scenario-Based Problems
+### Day 24 - Scenario-Based Problems on DSA & OOPS
 
 *(Date: 13-Jan-2026)*
 
@@ -507,7 +507,7 @@ BridgeLabz-Training/
 
 ---
 
-### Day 25 - Scenario-Based Problems
+### Day 25 - Scenario-Based Problems on DSA
 
 *(Date: 15-Jan-2026)*
 
@@ -519,4 +519,18 @@ BridgeLabz-Training/
    -  ExamCell – Student Rank Generator
 -  Successfully completed all assigned programs and verified the output results.
 
-🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src/sorting)
+🔗 *Link :* [Scenario-Based Dsa](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src/sorting)
+
+---
+
+### Day 26 - Scenario-Based Problems on DSA
+
+*(Date: 16-Jan-2026)*
+
+- Practiced real life, scenario based problems on sorting.
+   - RoboWarehouse – Shelf Loading Robot
+   - CinemaHouse – Movie Time Sorting
+   - CropMonitor – Sensor Data Ordering
+-  Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [Scenario-Based Dsa](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src/sorting)
