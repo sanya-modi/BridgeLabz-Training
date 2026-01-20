@@ -507,10 +507,14 @@ BridgeLabz-Training/
 
 ---
 
-### Day 25 - Scenario-Based Problems on DSA
+## Week 4 : Java Collections Concepts, Scenario-Based & LeetCode Problems
+
+### Day 25 - Java Generics & Scenario-Based Problems on DSA
 
 *(Date: 15-Jan-2026)*
 
+- Learned Generics basics: type safety, reusability, compile-time checks, and removal of type casting.
+- Practiced generic classes, methods, bounded types, and wildcards.
 - Practiced real life, scenario based problems on sorting.
    -  HospitalQueue – Patient Sorting by Criticality
    -  SmartShelf – Real-Time Book Arrangement
@@ -523,10 +527,19 @@ BridgeLabz-Training/
 
 ---
 
-### Day 26 - Scenario-Based Problems on DSA
+### Day 26 - Java Collections & Scenario-Based Problems on DSA
 
 *(Date: 16-Jan-2026)*
 
+- Learned the overview of the `Java Collections Framework` and its role in storing and manipulating groups of objects efficiently.
+- Understood what the Collections Framework is and how it provides a unified architecture for data structures.
+- Studied the hierarchy of the Collections Framework, including core interfaces and their relationships.
+- Learned the `List interface` and its implementing classes such as ArrayList and LinkedList for ordered data storage.
+- Studied the `Set interface` and its implementing classes to store unique elements without duplication.
+- Learned the `Queue` and `Deque interfaces` and how they support FIFO, LIFO, and priority-based operations.
+- Studied the `Map interface` and its implementations for storing data in key–value pairs.
+- Compared different collection implementations based on performance, ordering, and use cases.
+- Learned real-world use cases and best practices for choosing appropriate collection classes in Java.
 - Practiced real life, scenario based problems on sorting.
    - RoboWarehouse – Shelf Loading Robot
    - CinemaHouse – Movie Time Sorting
@@ -568,3 +581,17 @@ BridgeLabz-Training/
 🔗 *Link :* [Scenario-Based Dsa](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src/sorting)
 
 🔗 *Link :* [Scenario-Based Oops](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
+
+---
+
+### Day 29 - Scenario-Based Problems on DSA
+
+*(Date: 20-Jan-2026)*
+
+- Practiced real life, scenario based problems on sorting.
+   - MovieTime – Theater Show Listings
+   - FoodFest – Sorting Stalls by Customer Footfall 
+   - GamerZone – High Score Ranking System
+-  Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [Scenario-Based Dsa](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src/sorting)
