@@ -18,7 +18,7 @@ public class SortProducts {
 		int i = si-1;
 		
 		for(int j=si; j<ei; j++) {
-			if(productsList[j].discount > pivot.discount) {
+			if(productsList[j].discount < pivot.discount) {
 				i++;
 				Product temp = productsList[i];
 				productsList[i] = productsList[j];
