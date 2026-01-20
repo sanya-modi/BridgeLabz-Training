@@ -1,4 +1,4 @@
-## Week 4 : Java Collections Practice
+## Week 4 : Java Collections Concepts
 
 ### Day 1 – Java Generics (Fundamentals & Scenarios)
 
