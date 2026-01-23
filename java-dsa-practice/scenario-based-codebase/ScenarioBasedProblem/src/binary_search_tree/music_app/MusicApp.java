@@ -11,7 +11,7 @@ public class MusicApp {
 
         while (true) {
             System.out.println("""
-            
+ 
             Music App – Song Library
             1. Add New Track
             2. Search Track by ID
