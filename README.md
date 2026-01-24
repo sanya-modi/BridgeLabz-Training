@@ -523,6 +523,8 @@ BridgeLabz-Training/
    -  ExamCell – Student Rank Generator
 -  Successfully completed all assigned programs and verified the output results.
 
+🔗 *Link :* [Generics](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/generics) 
+
 🔗 *Link :* [Scenario-Based Dsa](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src/sorting)
 
 ---
@@ -546,6 +548,8 @@ BridgeLabz-Training/
    - CropMonitor – Sensor Data Ordering
 -  Successfully completed all assigned programs and verified the output results.
 
+🔗 *Link :* [Collections](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/collections) 
+
 🔗 *Link :* [Scenario-Based Dsa](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src/sorting)
 
 ---
@@ -567,10 +571,19 @@ BridgeLabz-Training/
 
 🔗 *Link :* [Scenario-Based Oops](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
 
-### Day 28 - Scenario-Based Problems on DSA & OOPS
+### Day 28 - Java Streams, Scenario-Based Problems on DSA & OOPS
 
 *(Date: 19-Jan-2026)*
 
+- Learned Java I/O Streams and how they are used to perform input and output operations in Java.
+- Studied different types of streams in Java based on data handling and functionality.
+- Learned File Streams to read and write data directly from files.
+- Studied Object Streams to read and write Java objects using serialization and deserialization.
+- Learned ByteArray Streams to handle data in memory using byte arrays.
+- Studied Buffered Streams to improve I/O performance by reducing direct disk access.
+- Learned Reader and Writer classes to handle character-based input and output operations.
+- Understood key considerations such as stream closing, exception handling, and performance impact.
+- Learned best practices for Java I/O by using buffering, try-with-resources, and choosing the right stream type.
 - Practiced real life, scenario based problems on sorting.
    - EduResults – Rank Sheet Generator
    - FlashDealz – Product Sorting by Discount
@@ -578,20 +591,32 @@ BridgeLabz-Training/
    - Address Book System
 -  Successfully completed all assigned programs and verified the output results.
 
+🔗 *Link :* [Streams](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/streams) 
+
 🔗 *Link :* [Scenario-Based Dsa](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src/sorting)
 
 🔗 *Link :* [Scenario-Based Oops](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario_based_codebase/src)
 
 ---
 
-### Day 29 - Scenario-Based Problems on DSA
+### Day 29 - Exception Handling, Scenario-Based Problems on DSA
 
 *(Date: 20-Jan-2026)*
 
+- Learned exceptions in Java and how they handle runtime errors to prevent abnormal program termination.
+- Studied different types of exceptions in Java including checked and unchecked exceptions.
+- Learned custom exceptions to handle application-specific error conditions.
+- Studied exception handling using try-catch, finally blocks to catch and handle errors gracefully.
+- Studied try-with-resources statement to automatically close resources after use.
+- Learned the throws clause to declare exceptions that may be passed to the calling method.
+- Studied the throw statement to explicitly throw an exception.
+- Learned defining constructors in custom exception classes to pass error messages or causes.
 - Practiced real life, scenario based problems on sorting.
    - MovieTime – Theater Show Listings
    - FoodFest – Sorting Stalls by Customer Footfall 
    - GamerZone – High Score Ranking System
 -  Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [Exception Handling](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/exceptionhandling) 
 
 🔗 *Link :* [Scenario-Based Dsa](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src/sorting)
