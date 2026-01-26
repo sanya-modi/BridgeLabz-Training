@@ -31,7 +31,7 @@
 - Compared different collection implementations based on performance, ordering, and use cases.
 - Learned real-world use cases and best practices for choosing appropriate collection classes in Java.
 
-🔗 *Link :* [Generics](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/collections) 
+🔗 *Link :* [Collections](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/collections) 
 
 ---
 
@@ -50,3 +50,20 @@
 - Learned best practices for Java I/O by using buffering, try-with-resources, and choosing the right stream type.
 
 🔗 *Link :* [Streams](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/streams) 
+
+---
+
+### Day 4 - Exception Handling
+
+*(Date: 20-Jan-2026)*
+
+- Learned exceptions in Java and how they handle runtime errors to prevent abnormal program termination.
+- Studied different types of exceptions in Java including checked and unchecked exceptions.
+- Learned custom exceptions to handle application-specific error conditions.
+- Studied exception handling using try-catch, finally blocks to catch and handle errors gracefully.
+- Studied try-with-resources statement to automatically close resources after use.
+- Learned the throws clause to declare exceptions that may be passed to the calling method.
+- Studied the throw statement to explicitly throw an exception.
+- Learned defining constructors in custom exception classes to pass error messages or causes.
+
+🔗 *Link :* [Exception Handling](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/exceptionhandling) 
