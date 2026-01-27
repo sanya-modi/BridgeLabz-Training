@@ -675,3 +675,36 @@ BridgeLabz-Training/
 🔗 *Link :* [Reflection](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/reflection) 
 
 🔗 *Link :* [Scenario-Based Dsa](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
+
+### Day 32 - Scenario-Based on Collections
+
+*(Date: 23-Jan-2026)*
+
+- Practiced real life, scenario based problems.
+  - ResumeAnalyzer – Smart Resume Filtering System
+  - TravelLog – Trip Organizer for Backpackers
+  - FeedbackGuru – Smart Survey Analyzer
+  - CodeRepoCleaner – Java File Scanner and Organizer
+  - ExamScanner – Digital Answer Sheet Validator
+-  Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [Scenario-Based Collections](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based-codebase/ScenarioBasedProblems/src/day1)
+
+---
+
+### Day 33 - Scenario-Based on Collections
+
+*(Date: 24-Jan-2026)*
+
+- Practiced real life, scenario based problems.
+  - MedInventory – Smart Hospital Inventory Tracker
+  - ChatLogParser – Messaging Pattern Analyzer
+  - SongVault – Personal Music Library Manager
+  - ExamResultUploader – Bulk Marks Processing
+  - DealTracker – E-Commerce Discount Validator
+-  Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [Scenario-Based Collections](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based-codebase/ScenarioBasedProblems/src/day2)
+
