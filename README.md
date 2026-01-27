@@ -85,3 +85,22 @@
 🔗 *Link :* [Regex](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/regex) 
 
 🔗 *Link :* [JUnit](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/junit) 
+
+---
+
+### Day 6 - Annotations & Reflection
+
+*(Date: 22-Jan-2026)*
+
+- Learned the introduction to `annotations` and how they provide metadata in Java programs.
+- Studied common `built-in annotations` used in Java applications.
+- Learned how to create `custom annotations` for user-defined metadata.
+- Understood `real-world use cases` of annotations in frameworks and applications.
+- Learned about annotation processing tools and their role in compile-time processing.
+- Studied `reflection` and how it allows inspection of classes, methods, and fields at runtime.
+- Learned how to use reflection in Java to access and manipulate class metadata dynamically.
+- Understood how annotations and reflection work together in frameworks and libraries.
+
+🔗 *Link :* [Annotations](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/annotations) 
+
+🔗 *Link :* [Reflection](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/reflection) 
