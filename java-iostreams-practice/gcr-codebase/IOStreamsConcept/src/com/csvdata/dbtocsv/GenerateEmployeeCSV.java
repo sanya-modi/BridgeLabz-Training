@@ -8,14 +8,6 @@ import java.sql.Statement;
 
 public class GenerateEmployeeCSV {
     public static void main(String[] args) {
-	// Verify MySQL Connector/J Is Loaded
-	/*
-	 * try { Class.forName("com.mysql.cj.jdbc.Driver");
-	 * System.out.println("MySQL Driver Loaded Successfully"); } catch
-	 * (ClassNotFoundException e) {
-	 * System.out.println("MySQL Driver NOT found in classpath");
-	 * e.printStackTrace(); return; }
-	 */
 
 	// sample database link
     	String url = "jdbc:mysql://localhost:3306/student_db"
