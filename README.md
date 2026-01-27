@@ -67,3 +67,40 @@
 - Learned defining constructors in custom exception classes to pass error messages or causes.
 
 🔗 *Link :* [Exception Handling](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/exceptionhandling) 
+
+---
+
+### Day 5 - Regex & JUnit
+
+*(Date: 21-Jan-2026)*
+
+- Learned `Regex` and its use in pattern matching and data validation.
+- Studied `metacharacters` and `quantifiers` in Regex.
+- Practiced common `Regex patterns` for email, password, and phone number validation.
+- Learned Java `Regex API` using Pattern and Matcher classes.
+- Studied `Regex methods` find(), matches(), and replaceAll().
+- Learned the basics of the `JUnit` framework for unit testing.
+- Studied JUnit `annotations`, `test class structure`, and `assertions`.
+
+🔗 *Link :* [Regex](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/regex) 
+
+🔗 *Link :* [JUnit](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/junit) 
+
+---
+
+### Day 6 - Annotations & Reflection
+
+*(Date: 22-Jan-2026)*
+
+- Learned the introduction to `annotations` and how they provide metadata in Java programs.
+- Studied common `built-in annotations` used in Java applications.
+- Learned how to create `custom annotations` for user-defined metadata.
+- Understood `real-world use cases` of annotations in frameworks and applications.
+- Learned about annotation processing tools and their role in compile-time processing.
+- Studied `reflection` and how it allows inspection of classes, methods, and fields at runtime.
+- Learned how to use reflection in Java to access and manipulate class metadata dynamically.
+- Understood how annotations and reflection work together in frameworks and libraries.
+
+🔗 *Link :* [Annotations](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/annotations) 
+
+🔗 *Link :* [Reflection](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/reflection) 
