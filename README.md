@@ -625,7 +625,7 @@ BridgeLabz-Training/
 
 ---
 
-### Day 30 - Regex & JUnit, Scenario-Based Problems on DSA
+### Day 30 - Regex, JUnit, Scenario-Based Problems on DSA
 
 *(Date: 21-Jan-2026)*
 
@@ -636,16 +636,42 @@ BridgeLabz-Training/
 - Studied `Regex methods` find(), matches(), and replaceAll().
 - Learned the basics of the `JUnit` framework for unit testing.
 - Studied JUnit `annotations`, `test class structure`, and `assertions`.
-- - Practiced real life, scenario based problems on sorting.
+- Practiced real life, scenario based problems on sorting.
    - TailorShop – Sorting Orders by Delivery Deadline
    - MedWarehouse – Sorting Medicines by Expiry
    - BST - University's Digital Record System
    - BST - E-Commerce Product Inventory
    - BST - Music App - Organize Songs by Track ID
--  Successfully completed all assigned programs and verified the output results.
+- Successfully completed all assigned programs and verified the output results.
 
 🔗 *Link :* [Regex](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/regex) 
 
 🔗 *Link :* [JUnit](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/junit) 
+
+🔗 *Link :* [Scenario-Based Dsa](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
+
+---
+
+### Day 31 - Annotations, Reflection, Scenario-Based Problems on DSA
+
+*(Date: 22-Jan-2026)*
+
+- Learned the introduction to `annotations` and how they provide metadata in Java programs.
+- Studied common `built-in annotations` used in Java applications.
+- Learned how to create `custom annotations` for user-defined metadata.
+- Understood `real-world use cases` of annotations in frameworks and applications.
+- Learned about annotation processing tools and their role in compile-time processing.
+- Studied `reflection` and how it allows inspection of classes, methods, and fields at runtime.
+- Learned how to use reflection in Java to access and manipulate class metadata dynamically.
+- Understood how annotations and reflection work together in frameworks and libraries.
+- Practiced real life, scenario based problems on sorting.
+   - AVL - Gaming App - Real-Time Leaderboard
+   - AVL - Online Ticket Booking by Time
+   - AVL - Hospital Queue Management
+- Successfully completed all assigned programs and verified the output results.
+
+🔗 *Link :* [Annotations](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/annotations) 
+
+🔗 *Link :* [Reflection](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/reflection) 
 
 🔗 *Link :* [Scenario-Based Dsa](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/scenario-based-codebase/ScenarioBasedProblem/src)
