@@ -704,10 +704,15 @@ BridgeLabz-Training/
 
 ---
 
-### Day 33 - Scenario-Based on Collections
+### Day 33 - JSON Data, Scenario-Based on Collections
 
 *(Date: 24-Jan-2026)*
 
+- Learned the introduction to `JSON` and understood its structure, syntax, and role in data exchange between systems.
+- Studied how to `read JSON data` in Java from files, strings, or API responses.
+- Learned how to `write JSON data` programmatically while maintaining proper formatting and structure.
+- Studied `parsing JSON data` to extract objects, arrays, and nested values for processing.
+- Learned `JSON schema validation` to verify the structure, data types, and required fields in JSON documents.
 - Practiced real life, scenario based problems.
   - MedInventory – Smart Hospital Inventory Tracker
   - ChatLogParser – Messaging Pattern Analyzer
@@ -715,6 +720,9 @@ BridgeLabz-Training/
   - ExamResultUploader – Bulk Marks Processing
   - DealTracker – E-Commerce Discount Validator
 -  Successfully completed all assigned programs and verified the output results.
+
+
+🔗 *Link :* [JSON Data](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-iostreams-practice/java-iostreams-practice/gcr-codebase/IOStreamsConcept/src/com/jsondata)
 
 🔗 *Link :* [Scenario-Based Collections](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based-codebase/ScenarioBasedProblems/src/day2)
 
