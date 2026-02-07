@@ -1,0 +1,117 @@
+/* Exercise 3: Advanced Features of Library Management System */
+
+/* Book Inventory */
+/* Book Table */
+CREATE TABLE Books (
+    book_id INT PRIMARY KEY,
+    title VARCHAR(100),
+    author VARCHAR(50),
+    category VARCHAR(30),
+    total_copies INT,
+    available_copies INT
+);
++---------+---------------+-----------------+-------------+--------------+------------------+
+| book_id | title         | author          | category    | total_copies | available_copies |
++---------+---------------+-----------------+-------------+--------------+------------------+
+|       1 | Java Basics   | Herbert Schildt | Programming |            5 |                4 |
+|       2 | DBMS Concepts | Korth           | Database    |            3 |                3 |
++---------+---------------+-----------------+-------------+--------------+------------------+
+
+/* Student Borrowing Records */
+/* Student Table */
+CREATE TABLE Students (
+    student_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    department VARCHAR(30)
+);
++--------+--------+------+
+| stu_id | name   | dept |
++--------+--------+------+
+|    101 | Sanya  | CSE  |
+|    102 | Shreya | IT   |
++--------+--------+------+
+
+/* Borrow Records */
+CREATE TABLE Borrow_Records (
+    record_id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id INT,
+    book_id INT,
+    borrow_date DATE,
+    return_date DATE,
+    due_date DATE,
+    fine DECIMAL(6,2) DEFAULT 0,
+
+    FOREIGN KEY (student_id) REFERENCES Students(student_id),
+    FOREIGN KEY (book_id) REFERENCES Books(book_id)
+);
+
+/* Borrow a Book (Inventory + Record) */
+START TRANSACTION;
+
+/* reduce available copies */
+UPDATE Books
+SET available_copies = available_copies - 1
+WHERE book_id = 1 AND available_copies > 0;
+
+/* insert borrow record */
+INSERT INTO Borrow_Records (
+    student_id,
+    book_id,
+    borrow_date,
+    due_date,
+    return_date
+)
+VALUES (
+    101,
+    1,
+    CURDATE(),
+    DATE_ADD(CURDATE(), INTERVAL 7 DAY),
+    DATE_ADD(CURDATE(), INTERVAL 9 DAY)
+);
+
+COMMIT;
+
+/* Fine Calculation */
+UPDATE Borrow_Records
+SET fine =
+    CASE
+        WHEN return_date > due_date
+        THEN DATEDIFF(return_date, due_date) * 10
+        ELSE 0
+    END;
+
+/* Before fine */
+    +-----------+--------+---------+-------------+-------------+------------+------+
+| record_id | stu_id | book_id | borrow_date | return_date | due_date   | fine |
++-----------+--------+---------+-------------+-------------+------------+------+
+|         1 |    101 |       1 | 2026-02-07  | 2026-02-16  | 2026-02-14 | 0.00 |
++-----------+--------+---------+-------------+-------------+------------+------+
+
+/* After fine */
++-----------+--------+---------+-------------+-------------+------------+-------+
+| record_id | stu_id | book_id | borrow_date | return_date | due_date   | fine  |
++-----------+--------+---------+-------------+-------------+------------+-------+
+|         1 |    101 |       1 | 2026-02-07  | 2026-02-16  | 2026-02-14 | 20.00 |
++-----------+--------+---------+-------------+-------------+------------+-------+
+
+/* Search functionality with multiple filters */
+/* Search by category + availability*/
+SELECT *
+FROM Books
+WHERE category = 'Programming'
+AND available_copies > 0;
++---------+-------------+-----------------+-------------+--------------+------------------+
+| book_id | title       | author          | category    | total_copies | available_copies |
++---------+-------------+-----------------+-------------+--------------+------------------+
+|       1 | Java Basics | Herbert Schildt | Programming |            5 |                4 |
++---------+-------------+-----------------+-------------+--------------+------------------+
+
+/* Search by title keyword */
+SELECT *
+FROM Books
+WHERE title LIKE '%DBMS%';
++---------+---------------+--------+----------+--------------+------------------+
+| book_id | title         | author | category | total_copies | available_copies |
++---------+---------------+--------+----------+--------------+------------------+
+|       2 | DBMS Concepts | Korth  | Database |            3 |                3 |
++---------+---------------+--------+----------+--------------+------------------+
