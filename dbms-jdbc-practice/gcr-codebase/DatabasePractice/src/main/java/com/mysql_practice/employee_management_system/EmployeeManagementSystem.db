@@ -10,5 +10,52 @@ INSERT INTO Employee VALUES
  (3, 'VK', 2200, 'Sales'),
  (4, 'Vansh', 6100, 'Sales'),
  (5, 'Shreya', 5555, 'IT');
+ 
+ /* View all employees */
+ SELECT * FROM Employee;
+ +--------+--------+---------+-------+
+| emp_id | name   | salary  | dept  |
++--------+--------+---------+-------+
+|      1 | Sanya  | 5200.65 | IT    |
+|      2 | AK     | 4100.25 | IT    |
+|      3 | VK     | 2200.00 | Sales |
+|      4 | Vansh  | 6100.00 | Sales |
+|      5 | Shreya | 5555.00 | IT    |
++--------+--------+---------+-------+
 
+/* Update employee salary */
+UPDATE Employee 
+SET salary=7000 
+WHERE emp_id = 1;
++--------+--------+---------+-------+
+| emp_id | name   | salary  | dept  |
++--------+--------+---------+-------+
+|      1 | Sanya  | 7000.00 | IT    |
+|      2 | AK     | 4100.25 | IT    |
+|      3 | VK     | 2200.00 | Sales |
+|      4 | Vansh  | 6100.00 | Sales |
+|      5 | Shreya | 5555.00 | IT    |
++--------+--------+---------+-------+
+
+/* Delete employee */
+ DELETE FROM Employee
+ WHERE name = 'VK';
+ +--------+--------+---------+-------+
+| emp_id | name   | salary  | dept  |
++--------+--------+---------+-------+
+|      1 | Sanya  | 7000.00 | IT    |
+|      2 | AK     | 4100.25 | IT    |
+|      4 | Vansh  | 6100.00 | Sales |
+|      5 | Shreya | 5555.00 | IT    |
++--------+--------+---------+-------+
+
+/* Search Employee by name */
+SELECT *
+FROM Employee
+WHERE name = 'Sanya';
++--------+-------+---------+------+
+| emp_id | name  | salary  | dept |
++--------+-------+---------+------+
+|      1 | Sanya | 7000.00 | IT   |
++--------+-------+---------+------+
  
