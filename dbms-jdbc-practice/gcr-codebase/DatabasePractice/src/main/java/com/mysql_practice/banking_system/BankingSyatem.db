@@ -1,0 +1,71 @@
+/* Exercise 2: Transaction Management */
+
+/* Account Table */
+CREATE TABLE Accounts (
+    account_id INT PRIMARY KEY,
+    holder_name VARCHAR(50),
+    balance DECIMAL(10,2)
+);
+
+INSERT INTO Accounts VALUES
+ (101, 'Sanya', 30000),
+ (102, 'Shreya', 50000);
+ 
+ /* Transaction Table */
+ CREATE TABLE Transactions(
+ txn_id INT AUTO_INCREMENT PRIMARY KEY,
+  from_account INT,
+  to_account INT,
+  amount DECIMAL(10,2),
+  txn_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+  );
+  
+  /*Transfer money between accounts (use transactions)*/
+  START TRANSACTION;
+  
+  //update sender's account balance
+  UPDATE Accounts
+  SET balance = balance - 10000
+  WHERE account_id = 101;
+  
+  //update reciever's account balance
+  UPDATE Accounts
+  SET balance = balance + 10000
+  WHERE account_id = 102;
+  
+  //Add details in transaction table for history
+  INSERT INTO Transactions(from_account, to_account, amount)
+  VALUES(101, 102, 10000);
+  
+  COMMIT;
+  
+  /* Check Balance */
+  
+  /* Before Transaction */
+ SELECT *
+ FROM Accounts;
+ +------------+-------------+----------+
+| account_id | holder_name | balance  |
++------------+-------------+----------+
+|        101 | Sanya       | 30000.00 |
+|        102 | Shreya      | 50000.00 |
++------------+-------------+----------+
+
+/* After Transaction */
+ SELECT *
+ FROM Accounts;
+ +------------+-------------+----------+
+| account_id | holder_name | balance  |
++------------+-------------+----------+
+|        101 | Sanya       | 20000.00 |
+|        102 | Shreya      | 60000.00 |
++------------+-------------+----------+
+
+/* Transaction history */
+SELECT *
+FROM Transactions;
++--------+--------------+------------+----------+---------------------+
+| txn_id | from_account | to_account | amount   | txn_date            |
++--------+--------------+------------+----------+---------------------+
+|      1 |          101 |        102 | 10000.00 | 2026-02-07 22:24:46 |
++--------+--------------+------------+----------+---------------------+
