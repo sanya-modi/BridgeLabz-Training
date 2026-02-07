@@ -1,0 +1,14 @@
+/* Exercise 1: Simple CRUD Application */
+
+/* Create a console-based Employee Management System */
+CREATE TABLE Employee(emp_id INT PRIMARY KEY, name VARCHAR(50), salary DECIMAL(10,2), dept VARCHAR(30));
+
+/* Add Employee */
+INSERT INTO Employee VALUES
+ (1, 'Sanya', 5200.65, 'IT'), 
+ (2, 'AK', 4100.25, 'IT'),
+ (3, 'VK', 2200, 'Sales'),
+ (4, 'Vansh', 6100, 'Sales'),
+ (5, 'Shreya', 5555, 'IT');
+
+ 
