@@ -1,0 +1,32 @@
+/*
+UC-2.4: Deactivate Doctor Profile
+Actor: Administrator
+Flow: Soft delete using UPDATE to set is_active=false in doctors table. Check for future appointments using nested SELECT before deactivation.
+*/
+
+
+SELECT doctor_id, name, is_active
+FROM doctors
+WHERE doctor_id = 1;
+
++-----------+-----------+-----------+
+| doctor_id | name      | is_active |
++-----------+-----------+-----------+
+|         1 | Dr. Mehta |         1 |
++-----------+-----------+-----------+
+
+UPDATE doctors
+SET is_active = FALSE
+WHERE doctor_id = 1
+AND doctor_id NOT IN (
+    SELECT doctor_id
+    FROM appointments
+    WHERE appointment_date > CURDATE()
+);
+
+SELECT doctor_id, name, is_active FROM doctors WHERE doctor_id = 1;
++-----------+-----------+-----------+
+| doctor_id | name      | is_active |
++-----------+-----------+-----------+
+|         1 | Dr. Mehta |         0 |
++-----------+-----------+-----------+

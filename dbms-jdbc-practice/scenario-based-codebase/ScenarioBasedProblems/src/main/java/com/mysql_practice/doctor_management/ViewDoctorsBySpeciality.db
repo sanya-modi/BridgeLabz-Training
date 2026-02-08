@@ -1,0 +1,18 @@
+/*
+UC-2.3: View Doctors by Specialty
+Actor: Receptionist
+Flow: Execute JOIN query between doctors and specialties tables, filter by specialty name. Display available doctors with their schedules.
+*/
+
+SELECT d.name, d.contact, d.schedules, s.specialization_name
+FROM doctors d 
+JOIN specializations s 
+ON d.specialization_id = s.specialization_id
+WHERE s.specialization_name = 'Orthopedics';
+
++------------+------------+-------------+---------------------+
+| name       | contact    | schedules   | specialization_name |
++------------+------------+-------------+---------------------+
+| Dr. Mehta  | 9988776655 | Mon & Wed   | Orthopedics         |
+| Dr. Sharma | 8877665544 | Wed & Thurs | Orthopedics         |
++------------+------------+-------------+---------------------+
