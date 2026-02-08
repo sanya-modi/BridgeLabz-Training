@@ -1,0 +1,31 @@
+/*
+UC-1.4: View Patient Visit History
+Actor: Doctor/Receptionist
+Flow: Execute JOIN query between appointments and visits tables filtered by patient ID. Display chronological list with doctor names and diagnoses.
+*/
+
+ SELECT v.visit_id, a.appointment_id, a.patient_id, d.name AS doctor_name, v.diagnosis, a.status FROM visits as v JOIN appointments AS a ON v.appointment_id = a.appointment_id JOIN doctors AS d ON a.doctor_id = d.doctor_id WHERE patient_id = 2;
++----------+----------------+------------+-----------+------------+-----------+
+| visit_id | appointment_id | patient_id | name      | diagnosis  | status    |
++----------+----------------+------------+-----------+------------+-----------+
+|      202 |            102 |          2 | Dr. Mehta | Chest Pain | Completed |
++----------+----------------+------------+-----------+------------+-----------+
+
+/* Chronological Visit List */
+SELECT
+    d.name AS doctor_name,
+    v.diagnosis,
+    v.visit_date
+FROM visits v
+JOIN appointments a
+    ON v.appointment_id = a.appointment_id
+JOIN doctors d
+    ON a.doctor_id = d.doctor_id
+ORDER BY v.visit_date ASC;
++-------------+------------+------------+
+| doctor_name | diagnosis  | visit_date |
++-------------+------------+------------+
+| Dr. Rao     | Fever      | 2024-09-01 |
+| Dr. Mehta   | Chest Pain | 2024-09-05 |
+| Dr. Sharma  | Knee Pain  | 2024-09-10 |
++-------------+------------+------------+
