@@ -1,0 +1,31 @@
+/*
+UC-3.4: Reschedule Appointment
+Actor: Receptionist
+Flow: Verify new slot availability, update appointment date/time and doctor_id if needed. Use transaction with ROLLBACK capability if conflicts detected.
+*/
+
+//Check new slot availability
+
+SELECT COUNT(*) 
+FROM appointments_dc
+WHERE doctor_id = 1
+AND appointment_date = '2026-02-21'
+AND appointment_time = '11:00:00'
+AND status = 'SCHEDULED';
++----------+
+| COUNT(*) |
++----------+
+|        0 |
++----------+
+
+//If slot available → Transaction Update
+
+START TRANSACTION;
+
+UPDATE appointments_dc
+SET appointment_date = '2026-02-21',
+    appointment_time = '11:00:00'
+WHERE appointment_id = 1;
+
+COMMIT;
+

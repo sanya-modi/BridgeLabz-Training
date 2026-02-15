@@ -1,0 +1,40 @@
+/*
+UC-3.1: Book New Appointment
+Actor: Receptionist
+Flow: Select patient and doctor, check availability using SELECT with date/time constraints. Insert into appointments table with status='SCHEDULED'. Use PreparedStatement to prevent SQL injection.
+*/
+
+//CHECK AVAILABILITY
+
+SELECT COUNT(*) AS booked_slots
+FROM appointments_dc
+WHERE doctor_id = 1
+AND appointment_date = '2026-02-20'
+AND status = 'SCHEDULED';
++--------------+
+| booked_slots |
++--------------+
+|            0 |
++--------------+
+
+//COMPARE WITH DOCTOR CAPACITY
+
+SELECT max_daily_capacity
+FROM doctors_dc
+WHERE doctor_id = 1;
++--------------------+
+| max_daily_capacity |
++--------------------+
+|                  5 |
++--------------------+
+
+//Insert Appointment (if available)
+
+INSERT INTO appointments_dc
+(patient_id, doctor_id, appointment_date, appointment_time, status)
+VALUES (1, 1, '2026-02-20', '10:00:00', 'SCHEDULED');
++--------------+
+| booked_slots |
++--------------+
+|            1 |
++--------------+

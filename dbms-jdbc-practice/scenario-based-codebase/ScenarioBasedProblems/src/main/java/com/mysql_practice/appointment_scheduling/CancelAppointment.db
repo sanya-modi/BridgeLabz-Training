@@ -1,0 +1,17 @@
+/*
+UC-3.3: Cancel Appointment
+Actor: Receptionist/Patient
+Flow: Update appointment status to 'CANCELLED' using UPDATE statement. Execute within transaction to log cancellation in appointment_audit table.
+*/
+
+START TRANSACTION;
+
+UPDATE appointments_dc
+SET status = 'CANCELLED'
+WHERE appointment_id = 1;
+
+INSERT INTO appointment_audit_dc
+(appointment_id, action_type)
+VALUES (1, 'CANCELLED');
+
+COMMIT;

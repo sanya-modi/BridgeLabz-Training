@@ -1,0 +1,26 @@
+/*
+
+UC-3.5: View Daily Appointment Schedule
+Actor: Doctor/Receptionist
+Flow: Execute multi-table JOIN (appointments, patients, doctors) filtered by date. Order by appointment_time using ORDER BY clause.
+
+*/
+
+SELECT 
+    a.appointment_id,
+    p.patient_name,
+    d.doctor_name,
+    a.appointment_time,
+    a.status
+FROM appointments_dc a
+JOIN patients_dc p ON a.patient_id = p.patient_id
+JOIN doctors_dc d ON a.doctor_id = d.doctor_id
+WHERE a.appointment_date = '2026-02-20'
+ORDER BY a.appointment_time;
++----------------+--------------+-------------+------------------+-----------+
+| appointment_id | patient_name | doctor_name | appointment_time | status    |
++----------------+--------------+-------------+------------------+-----------+
+|              7 | Sanya Modi   | Dr. Mehta   | 09:00:00         | SCHEDULED |
+|              8 | Shreya Jain  | Dr. Mehta   | 10:00:00         | SCHEDULED |
+|              9 | Rahul Sharma | Dr. Rao     | 11:00:00         | SCHEDULED |
++----------------+--------------+-------------+------------------+-----------+

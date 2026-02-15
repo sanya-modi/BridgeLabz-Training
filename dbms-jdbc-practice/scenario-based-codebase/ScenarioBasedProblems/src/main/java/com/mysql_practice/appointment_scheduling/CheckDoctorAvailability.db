@@ -1,0 +1,20 @@
+/*
+UC-3.2: Check Doctor Availability
+Actor: Receptionist
+Flow: Query appointments table with WHERE clause for doctor_id and date. Use GROUP BY and COUNT to show slot-wise bookings against max capacity.
+*/
+
+SELECT 
+    appointment_time,
+    COUNT(*) AS total_bookings
+FROM appointments_dc
+WHERE doctor_id = 1
+AND appointment_date = '2026-02-20'
+AND status = 'SCHEDULED'
+GROUP BY appointment_time;
+
++------------------+----------------+
+| appointment_time | total_bookings |
++------------------+----------------+
+| 10:00:00         |              1 |
++------------------+----------------+
