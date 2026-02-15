@@ -22,7 +22,7 @@
 
 ---
 
-### JDBC (Java Database Connectivity)
+### Day 2 : JDBC (Java Database Connectivity)
 *(Date: 09-Feb-2026)*
 
 - Explored `JDBC` and its role in connecting Java applications with relational databases.
