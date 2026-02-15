@@ -1,0 +1,55 @@
+/*
+
+*/
+
+CREATE TABLE bills_dc (
+    bill_id INT PRIMARY KEY AUTO_INCREMENT,
+    visit_id INT,
+    patient_id INT,
+    doctor_id INT,
+    consultation_fee DECIMAL(10,2),
+    additional_charges DECIMAL(10,2),
+    total_amount DECIMAL(10,2),
+    bill_date DATE,
+    payment_status VARCHAR(20) DEFAULT 'UNPAID',
+    payment_date DATE,
+    payment_mode VARCHAR(50),
+    FOREIGN KEY (visit_id) REFERENCES visits_dc(visit_id),
+    FOREIGN KEY (patient_id) REFERENCES patients_dc(patient_id),
+    FOREIGN KEY (doctor_id) REFERENCES doctors_dc(doctor_id)
+);
++--------------------+---------------+------+-----+---------+----------------+
+| Field              | Type          | Null | Key | Default | Extra          |
++--------------------+---------------+------+-----+---------+----------------+
+| bill_id            | int           | NO   | PRI | NULL    | auto_increment |
+| visit_id           | int           | YES  | MUL | NULL    |                |
+| patient_id         | int           | YES  | MUL | NULL    |                |
+| doctor_id          | int           | YES  | MUL | NULL    |                |
+| consultation_fee   | decimal(10,2) | YES  |     | NULL    |                |
+| additional_charges | decimal(10,2) | YES  |     | NULL    |                |
+| total_amount       | decimal(10,2) | YES  |     | NULL    |                |
+| bill_date          | date          | YES  |     | NULL    |                |
+| payment_status     | varchar(20)   | YES  |     | UNPAID  |                |
+| payment_date       | date          | YES  |     | NULL    |                |
+| payment_mode       | varchar(50)   | YES  |     | NULL    |                |
++--------------------+---------------+------+-----+---------+----------------+
+
+
+CREATE TABLE payment_transactions_dc (
+    transaction_id INT PRIMARY KEY AUTO_INCREMENT,
+    bill_id INT,
+    amount_paid DECIMAL(10,2),
+    payment_mode VARCHAR(50),
+    transaction_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (bill_id) REFERENCES bills_dc(bill_id)
+);
+
++------------------+---------------+------+-----+-------------------+-------------------+
+| Field            | Type          | Null | Key | Default           | Extra             |
++------------------+---------------+------+-----+-------------------+-------------------+
+| transaction_id   | int           | NO   | PRI | NULL              | auto_increment    |
+| bill_id          | int           | YES  | MUL | NULL              |                   |
+| amount_paid      | decimal(10,2) | YES  |     | NULL              |                   |
+| payment_mode     | varchar(50)   | YES  |     | NULL              |                   |
+| transaction_date | timestamp     | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
++--------------

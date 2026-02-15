@@ -1,0 +1,20 @@
+/*
+UC-5.3: View Outstanding Bills
+Actor: Receptionist/Administrator
+Flow: SELECT from bills table WHERE payment_status='UNPAID' with JOIN to patients. Use aggregate functions (SUM, COUNT) grouped by patient for summary.
+*/
+
+SELECT 
+    p.patient_name,
+    COUNT(b.bill_id) AS total_unpaid_bills,
+    SUM(b.total_amount) AS total_due
+FROM bills_dc b
+JOIN patients_dc p ON b.patient_id = p.patient_id
+WHERE b.payment_status = 'UNPAID'
+GROUP BY p.patient_name;
+
++--------------+--------------------+-----------+
+| patient_name | total_unpaid_bills | total_due |
++--------------+--------------------+-----------+
+| Shreya Jain  |                  1 |   1200.00 |
++--------------+--------------------+-----------+

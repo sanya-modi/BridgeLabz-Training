@@ -1,0 +1,43 @@
+/*
+UC-5.4: Generate Revenue Report
+Actor: Administrator
+Flow: Execute aggregate query with SUM on bills table grouped by date/doctor/specialty. Use BETWEEN operator for date range filtering and HAVING clause for thresholds.
+*/
+
+SELECT 
+    bill_date,
+    SUM(total_amount) AS total_revenue
+FROM bills_dc
+WHERE bill_date BETWEEN '2026-02-01' AND '2026-02-28'
+GROUP BY bill_date;
++------------+---------------+
+| bill_date  | total_revenue |
++------------+---------------+
+| 2026-02-16 |       2500.00 |
++------------+---------------+
+
+SELECT 
+    d.doctor_name,
+    SUM(b.total_amount) AS total_revenue
+FROM bills_dc b
+JOIN doctors_dc d ON b.doctor_id = d.doctor_id
+WHERE b.payment_status = 'PAID'
+GROUP BY d.doctor_name
+HAVING total_revenue > 500;
++-------------+---------------+
+| doctor_name | total_revenue |
++-------------+---------------+
+| Dr. Mehta   |       1300.00 |
++-------------+---------------+
+
+SELECT 
+    d.specialization,
+    SUM(b.total_amount) AS total_revenue
+FROM bills_dc b
+JOIN doctors_dc d ON b.doctor_id = d.doctor_id
+GROUP BY d.specialization;
++----------------+---------------+
+| specialization | total_revenue |
++----------------+---------------+
+| Cardiologist   |       2500.00 |
++----------------+---------------+

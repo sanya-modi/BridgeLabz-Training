@@ -1,0 +1,15 @@
+/*
+UC-5.1: Generate Bill for Visit
+Actor: Receptionist
+Flow: Calculate total from doctor's consultation_fee plus any additional charges. Insert into bills table with foreign key to visit_id. Use SUM aggregate function for itemized billing.
+*/
+
+SELECT SUM(consultation_fee + additional_charges) AS total
+FROM bills_dc
+WHERE visit_id = 1;
+
++---------+
+| total   |
++---------+
+| 1300.00 |
++---------+

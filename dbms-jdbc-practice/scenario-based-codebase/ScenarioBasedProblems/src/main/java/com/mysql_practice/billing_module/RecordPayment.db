@@ -1,0 +1,36 @@
+/*
+UC-5.2: Record Payment
+Actor: Receptionist
+Flow: Update bills table setting payment_status='PAID', payment_date, payment_mode. Use transaction to insert record in payment_transactions table simultaneously.
+*/
+
+START TRANSACTION;
+
+-- Update Bill
+UPDATE bills_dc
+SET payment_status = 'PAID',
+    payment_date = CURDATE(),
+    payment_mode = 'UPI'
+WHERE bill_id = 1;
+
+-- Insert Payment Record
+INSERT INTO payment_transactions_dc
+(bill_id, amount_paid, payment_mode)
+VALUES
+(1, 1300, 'UPI');
+
+COMMIT;
+
+SELECT * FROM bills_dc;
++---------+----------+------------+-----------+------------------+--------------------+--------------+------------+----------------+--------------+--------------+
+| bill_id | visit_id | patient_id | doctor_id | consultation_fee | additional_charges | total_amount | bill_date  | payment_status | payment_date | payment_mode |
++---------+----------+------------+-----------+------------------+--------------------+--------------+------------+----------------+--------------+--------------+
+|       1 |        1 |          1 |         1 |           800.00 |             500.00 |      1300.00 | 2026-02-16 | PAID           | 2026-02-16   | UPI          |
++---------+----------+------------+-----------+------------------+--------------------+--------------+------------+----------------+--------------+--------------+
+
+SELECT * FROM payment_transactions_dc;
++----------------+---------+-------------+--------------+---------------------+
+| transaction_id | bill_id | amount_paid | payment_mode | transaction_date    |
++----------------+---------+-------------+--------------+---------------------+
+|              1 |       1 |     1300.00 | UPI          | 2026-02-16 00:49:32 |
++----------------+---------+-------------+--------------+---------------------+
