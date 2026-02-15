@@ -36,3 +36,20 @@
 🔗 *Link :* [Stream Api](https://github.com/sanya-modi/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-coodebase/Java8Concepts/src/com/stream_api) 
 
 🔗 *Link :* [Collectors](https://github.com/sanya-modi/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/gcr-coodebase/Java8Concepts/src/com/collectors) 
+
+---
+
+### Day 3 – Java 8 Scenario-Based Questions Practice
+*(Date: 29-30 Jan 2026)*
+
+- Practised a wide range of scenario-based problems using Java 8 features to understand how functional programming concepts are applied in real-world applications.
+- The focus was on writing clean, readable, and efficient code while replacing traditional imperative logic with modern Java constructs.
+
+### Topics Practised in Detail
+
+- `Lambda Expressions` - Used to simplify anonymous classes and concisely implement behaviour-driven logic.
+- `Functional Interfaces` - Practised built-in interfaces such as Predicate, Function, Consumer, and Supplier to model business rules.
+- `Streams API` - Solved problems involving filtering, mapping, grouping, sorting, and aggregation of collections.
+- `Optional Class` - Handled null-sensitive scenarios safely and avoided NullPointerException using Optional-based design.
+
+🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based-codebase/ScenarioBasedProblems/src/com) 
