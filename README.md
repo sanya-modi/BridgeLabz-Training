@@ -1,7 +1,7 @@
 ## Week 7 : Java Design Principles & Design Patterns
 
 ### Day 1 - Design Principles & Design Patterns
-*(Date:31-Jan-2026)*
+*(Date: 31-Jan-2026)*
 
 - Studied the introduction to `design principles` and their importance in writing clean, maintainable, and scalable software.
 - Learned the `Single Responsibility Principle` (SRP) to ensure a class has only one reason to change.
@@ -25,7 +25,7 @@ Learned `UML designing` to visually represent system structure, relationships, a
 ---
 
 ### Day 2 - Multi-Threading
-*(Date:2-Feb-2026)*
+*(Date: 02-Feb-2026)*
 
 - Learned multithreading and how it allows concurrent execution of multiple tasks within a single process.
 - Studied different ways to create threads using the `Thread` class and `Runnable` interface.
@@ -37,3 +37,15 @@ Learned `UML designing` to visually represent system structure, relationships, a
 - Studied `ReentrantLock` and compared it with synchronized blocks.
 
 🔗 *Link :* [Multi-Threading](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/gcr-codebase/DesignConcepts/src/com/multithreading) 
+
+---
+
+### Day 3 – Bank Transactions Using Multithreading
+*(Date: 03-Feb-2026)*
+
+- Solved a Java multithreading problem simulating concurrent bank transactions.
+- Implemented a thread-safe Bank class with synchronised deposit, withdrawal, and balance operations to prevent race conditions.
+- Created multiple Customer threads to perform transactions concurrently and verified correctness through final account balances.
+- This exercise strengthened my understanding of thread creation, synchronisation, and real-world concurrency handling.
+
+🔗 *Link :* [Multi-Threading Scenario](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/scenario-based/ScenarioBasedProblem/src/com/banktransactionmultithreading)
