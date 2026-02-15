@@ -1,0 +1,26 @@
+/*
+UC-4.2: View Patient Medical History
+Actor: Doctor
+Flow: Execute JOIN query across visits, prescriptions, and appointments tables. Filter by patient_id and order by visit_date DESC for chronological view.
+*/
+
+SELECT 
+    v.visit_id,
+    v.visit_date,
+    v.diagnosis,
+    p.medicine_name,
+    p.dosage,
+    p.duration_days,
+    a.appointment_date
+FROM visits_dc v
+JOIN prescriptions_dc p ON v.visit_id = p.visit_id
+JOIN appointments_dc a ON v.appointment_id = a.appointment_id
+WHERE v.patient_id = 1
+ORDER BY v.visit_date DESC;
+
++----------+------------+------------+---------------+-------------------+---------------+------------------+
+| visit_id | visit_date | diagnosis  | medicine_name | dosage            | duration_days | appointment_date |
++----------+------------+------------+---------------+-------------------+---------------+------------------+
+|        1 | NULL       | Mild Fever | Paracetamol   | 500mg Twice Daily |             5 | 2026-02-21       |
+|        1 | NULL       | Mild Fever | Vitamin C     | Once Daily        |             7 | 2026-02-21       |
++----------+------------+------------+---------------+-------------------+---------------+------------------+

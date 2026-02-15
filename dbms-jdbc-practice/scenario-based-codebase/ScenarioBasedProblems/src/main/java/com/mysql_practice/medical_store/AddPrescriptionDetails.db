@@ -1,0 +1,22 @@
+/*
+UC-4.3: Add Prescription Details
+Actor: Doctor
+Flow: Insert multiple records into prescriptions table (one-to-many with visits) containing medicine name, dosage, duration. Use batch INSERT for efficiency.
+*/
+
+INSERT INTO prescriptions_dc
+(visit_id, medicine_name, dosage, duration_days)
+VALUES
+(1, 'Ibuprofen', '400mg Twice Daily', 3),
+(1, 'Antibiotic', '250mg Three Times Daily', 5),
+(1, 'Cough Syrup', '10ml Twice Daily', 7);
+
++-----------------+----------+---------------+-------------------------+---------------+
+| prescription_id | visit_id | medicine_name | dosage                  | duration_days |
++-----------------+----------+---------------+-------------------------+---------------+
+|               1 |        1 | Paracetamol   | 500mg Twice Daily       |             5 |
+|               2 |        1 | Vitamin C     | Once Daily              |             7 |
+|               3 |        1 | Ibuprofen     | 400mg Twice Daily       |             3 |
+|               4 |        1 | Antibiotic    | 250mg Three Times Daily |             5 |
+|               5 |        1 | Cough Syrup   | 10ml Twice Daily        |             7 |
++-----------------+----------+---------------+-------------------------+---------------+

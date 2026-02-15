@@ -1,0 +1,34 @@
+/*
+UC-4.1: Record Patient Visit
+Actor: Doctor
+Flow: After appointment completion, insert visit record into visits table with diagnosis, prescription, notes. Update appointment status to 'COMPLETED' in same transaction.
+*/
+
+START TRANSACTION;
+
+-- Insert Visit Record
+INSERT INTO visits_dc
+(appointment_id, patient_id, doctor_id, diagnosis, notes)
+VALUES
+(1, 1, 1, 'Mild Fever', 'Patient advised rest and hydration');
+
+-- Update Appointment Status
+UPDATE appointments_dc
+SET status = 'COMPLETED'
+WHERE appointment_id = 1;
+
+COMMIT;
+
+SELECT * FROM visits_dc;
+SELECT appointment_id, status FROM appointments_dc;
+
++----------------+-----------+
+| appointment_id | status    |
++----------------+-----------+
+|              1 | COMPLETED |
+|              7 | SCHEDULED |
+|              8 | SCHEDULED |
+|              9 | SCHEDULED |
+|             10 | SCHEDULED |
+|             11 | CANCELLED |
++----------------+-----------+
