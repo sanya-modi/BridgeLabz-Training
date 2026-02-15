@@ -1,0 +1,45 @@
+/*
+UC-6.2: Database Backup Trigger
+Actor: System (Scheduled)
+Flow: Execute JDBC batch operations to export critical tables. Use DatabaseMetaData to retrieve schema information for backup validation.
+*/
+
+//Create Audit Log Table
+
+CREATE TABLE audit_log_dc (
+    audit_id INT PRIMARY KEY AUTO_INCREMENT,
+    table_name VARCHAR(100),
+    operation_type VARCHAR(20),
+    record_id INT,
+    changed_by VARCHAR(100),
+    change_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+//Create Trigger on bills_dc (Example)
+
+DELIMITER $$
+
+CREATE TRIGGER bills_insert_audit
+AFTER INSERT ON bills_dc
+FOR EACH ROW
+BEGIN
+    INSERT INTO audit_log_dc
+    (table_name, operation_type, record_id, changed_by)
+    VALUES
+    ('bills_dc', 'INSERT', NEW.bill_id, USER());
+END $$
+
+DELIMITER ;
+
+
+SELECT * FROM audit_log_dc;
+
++----------+------------+----------------+-----------+----------------+---------------------+
+| audit_id | table_name | operation_type | record_id | changed_by     | change_time         |
++----------+------------+----------------+-----------+----------------+---------------------+
+|        1 | bills_dc   | INSERT         |         3 | root@localhost | 2026-02-16 01:02:20 |
++----------+------------+----------------+-----------+----------------+---------------------+
+
+
+
+

@@ -1,0 +1,35 @@
+/*
+UC-6.3: View System Audit Logs
+Actor: Administrator
+Flow: Query audit_log table populated via database triggers on INSERT/UPDATE/DELETE. Filter by user, table_name, timestamp using complex WHERE conditions.
+
+*/
+
+SELECT *
+FROM audit_log_dc
+WHERE changed_by LIKE '%root%';
++----------+------------+----------------+-----------+----------------+---------------------+
+| audit_id | table_name | operation_type | record_id | changed_by     | change_time         |
++----------+------------+----------------+-----------+----------------+---------------------+
+|        1 | bills_dc   | INSERT         |         3 | root@localhost | 2026-02-16 01:02:20 |
++----------+------------+----------------+-----------+----------------+---------------------+
+
+SELECT *
+FROM audit_log_dc
+WHERE table_name = 'bills_dc';
++----------+------------+----------------+-----------+----------------+---------------------+
+| audit_id | table_name | operation_type | record_id | changed_by     | change_time         |
++----------+------------+----------------+-----------+----------------+---------------------+
+|        1 | bills_dc   | INSERT         |         3 | root@localhost | 2026-02-16 01:02:20 |
++----------+------------+----------------+-----------+----------------+---------------------+
+
+SELECT *
+FROM audit_log_dc
+WHERE table_name = 'bills_dc'
+AND operation_type = 'INSERT'
+AND change_time BETWEEN '2026-02-01' AND '2026-02-28';
++----------+------------+----------------+-----------+----------------+---------------------+
+| audit_id | table_name | operation_type | record_id | changed_by     | change_time         |
++----------+------------+----------------+-----------+----------------+---------------------+
+|        1 | bills_dc   | INSERT         |         3 | root@localhost | 2026-02-16 01:02:20 |
++----------+------------+----------------+-----------+----------------+---------------------+
