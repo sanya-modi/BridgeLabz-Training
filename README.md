@@ -1,6 +1,6 @@
 ## Week 8 : MySQL & JDBC Practice
 
-### Day 1 : DBMS & MySQL
+### Day 1 : DBMS, MySQL & Scenario-Based Problems
 *(Date: 07-Feb-2026)*
 
 - Explored the fundamentals of `DBMS` and how it enables efficient storage, retrieval, and management of data.
@@ -9,8 +9,16 @@
 - Practiced writing `SQL queries` including `SELECT`, `INSERT`, `UPDATE`, `DELETE`, and `WHERE` clauses.
 - Implemented `MySQL` as a `relational database management system` to apply DBMS concepts practically.
 - Worked with `joins` and `aggregate functions` in MySQL to retrieve and analyze data efficiently.
+- Implemented `appointment_scheduling` module to manage booking, updating, and cancellation of patient appointments.
+- Developed `billing_module` to handle invoice generation, payment processing, and billing records.
+- Built `doctor_management` module to manage doctor details, specialization, and availability.
+- Designed `medical_store` module to maintain medicine inventory, stock updates, and purchase records.
+- Created `patient_management` system to store and manage patient information and medical history.
+- Implemented `system_administration` module to manage users, roles, and overall system configurations.
 
 🔗 *Link :* [MySQL](https://github.com/sanya-modi/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/gcr-codebase/DatabasePractice/src/main/java/com/mysql_practice)
+
+🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/scenario-based-codebase/ScenarioBasedProblems/src/main/java/com/mysql_practice)
 
 ---
 
