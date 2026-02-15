@@ -769,9 +769,26 @@ BridgeLabz-Training/
 
 ---
 
+### Day 36 – Java 8 Scenario-Based Questions Practice
+*(Date: 29-30 Jan 2026)*
+
+- Practised a wide range of scenario-based problems using Java 8 features to understand how functional programming concepts are applied in real-world applications.
+- The focus was on writing clean, readable, and efficient code while replacing traditional imperative logic with modern Java constructs.
+
+### Topics Practised in Detail
+
+- `Lambda Expressions` - Used to simplify anonymous classes and concisely implement behaviour-driven logic.
+- `Functional Interfaces` - Practised built-in interfaces such as Predicate, Function, Consumer, and Supplier to model business rules.
+- `Streams API` - Solved problems involving filtering, mapping, grouping, sorting, and aggregation of collections.
+- `Optional Class` - Handled null-sensitive scenarios safely and avoided NullPointerException using Optional-based design.
+
+🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based-codebase/ScenarioBasedProblems/src/com) 
+
+---
+
 ## Week 7 : Java Design Principles & Design Patterns
 
-### Day 36 - Design Principles & Design Patterns
+### Day 37 - Design Principles & Design Patterns
 *(Date:31-Jan-2026)*
 
 - Studied the introduction to `design principles` and their importance in writing clean, maintainable, and scalable software.
@@ -795,7 +812,7 @@ Learned `UML designing` to visually represent system structure, relationships, a
 
 ---
 
-### Day 37 - Multi-Threading
+### Day 38 - Multi-Threading
 *(Date:2-Feb-2026)*
 
 - Learned multithreading and how it allows concurrent execution of multiple tasks within a single process.
@@ -811,9 +828,21 @@ Learned `UML designing` to visually represent system structure, relationships, a
 
 ---
 
-## Week 8 : MySQL & JDBC 
+### Day 39 – Bank Transactions Using Multithreading
+*(Date: 03-Feb-2026)*
 
-### Day 38 : DBMS & MySQL
+- Solved a Java multithreading problem simulating concurrent bank transactions.
+- Implemented a thread-safe Bank class with synchronised deposit, withdrawal, and balance operations to prevent race conditions.
+- Created multiple Customer threads to perform transactions concurrently and verified correctness through final account balances.
+- This exercise strengthened my understanding of thread creation, synchronisation, and real-world concurrency handling.
+
+🔗 *Link :* [Multi-Threading Scenario](https://github.com/sanya-modi/BridgeLabz-Training/tree/java-design-pattern-practice/java-design-pattern-practice/scenario-based/ScenarioBasedProblem/src/com/banktransactionmultithreading)
+
+---
+
+## Week 8 : MySQL & JDBC Practice
+
+### Day 40 : DBMS, MySQL & Scenario-Based Problems
 *(Date: 07-Feb-2026)*
 
 - Explored the fundamentals of `DBMS` and how it enables efficient storage, retrieval, and management of data.
@@ -822,5 +851,32 @@ Learned `UML designing` to visually represent system structure, relationships, a
 - Practiced writing `SQL queries` including `SELECT`, `INSERT`, `UPDATE`, `DELETE`, and `WHERE` clauses.
 - Implemented `MySQL` as a `relational database management system` to apply DBMS concepts practically.
 - Worked with `joins` and `aggregate functions` in MySQL to retrieve and analyze data efficiently.
+- Implemented `appointment_scheduling` module to manage booking, updating, and cancellation of patient appointments.
+- Developed `billing_module` to handle invoice generation, payment processing, and billing records.
+- Built `doctor_management` module to manage doctor details, specialization, and availability.
+- Designed `medical_store` module to maintain medicine inventory, stock updates, and purchase records.
+- Created `patient_management` system to store and manage patient information and medical history.
+- Implemented `system_administration` module to manage users, roles, and overall system configurations.
 
 🔗 *Link :* [MySQL](https://github.com/sanya-modi/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/gcr-codebase/DatabasePractice/src/main/java/com/mysql_practice)
+
+🔗 *Link :* [Scenario-Based](https://github.com/sanya-modi/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/scenario-based-codebase/ScenarioBasedProblems/src/main/java/com/mysql_practice)
+
+---
+
+### Day 41 : JDBC (Java Database Connectivity)
+*(Date: 09-Feb-2026)*
+
+- Explored `JDBC` and its role in connecting Java applications with relational databases.
+- Understood the architecture of JDBC including `JDBC API`, `JDBC Driver`, and `Database`.
+- Studied different types of `JDBC Drivers` such as Type 1, Type 2, Type 3, and Type 4 drivers.
+- Learned the steps to establish a database connection using `DriverManager`, `Connection`, `Statement`, and `ResultSet`.
+- Practiced executing `SQL queries` using `Statement` and `PreparedStatement`.
+- Analyzed the benefits of `PreparedStatement` for preventing `SQL Injection` and improving performance.
+- Worked with `ResultSet` to retrieve and process data from the database.
+- Implemented `CRUD operations` (Create, Read, Update, Delete) using JDBC.
+- Managed transactions using `commit()` and `rollback()` for data consistency.
+- Applied best practices such as proper `exception handling` and closing resources using `try-with-resources`.
+
+🔗 *Link :* [JDBC](https://github.com/sanya-modi/BridgeLabz-Training/tree/dbms-jdbc-practice/dbms-jdbc-practice/gcr-codebase/DatabasePractice/src/main/java/com/jdbc_practice)
+
